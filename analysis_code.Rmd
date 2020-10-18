@@ -1,0 +1,759 @@
+---
+title: "Final_Submission_R_Markdown"
+author: "Hannah Rose Kirk"
+date: "16/07/2020"
+output: html_document
+---
+# Section 1: Set Up
+
+```{r, warning=FALSE, message= FALSE}
+##################################################################
+##                          Section 1:                          ##
+##                            Set Up                            ##
+##################################################################
+
+#Set Wd
+setwd("~/Library/Mobile Documents/com~apple~CloudDocs/RESEARCH/Dating/Second Submission")
+
+#Load Libraries
+library(tidyr)
+library(readxl)
+library(dplyr)
+library(ggplot2)
+library(RColorBrewer)
+library(RColorBrewer)
+library(sqldf)
+library(waffle)
+library(table1)
+library(knitr)
+library(networkD3)
+
+#Import Data
+data <- read_excel("Final_Data_R.xlsx", col_types = c("text", "numeric", "text", 
+                                                 "numeric", "text", "numeric", "text", 
+                                                 "text", "numeric", "numeric", "numeric", 
+                                                 "numeric", "numeric", "numeric", 
+                                                 "text", "text", "numeric", "numeric", 
+                                                 "numeric", "numeric", "text", "numeric", 
+                                                 "text", "numeric", "text", "numeric"))
+head(data)
+
+```
+
+# Section 2: Generate Factor Variables      
+
+```{r, warning = FALSE}
+
+
+#################################################################
+##                          Section 2:                         ##
+##                  Generate Factor Variables                  ##
+#################################################################
+
+# Create Factors
+data$gender.f <- factor(data$female, levels= c(0,1),
+                        labels = c("Male", "Female"))
+
+data$online.f <- factor(data$online_dummy, levels= c(0,1),
+                        labels = c("Offline", "Online"))
+
+data$parent.f <- factor(data$parent_dummy, levels = c(0,1), labels = c("Unknown", "Known Parent"))
+
+data$educ.f <- factor(data$educ_own_levels, levels= c(0,1,2,3,4,5),
+                      labels = c("Unspecified", "School", "Vocational", "BA", "MA","PhD"))
+
+data$min_educ_partner.f<-factor(data$min_educ_partner_levels, levels= c(0,1,2,3,4,5),
+                      labels = c("Unspecified", "School", "Vocational", "BA", "MA","PhD"))
+
+data$status.f <- factor(data$status_own_levels, levels=c(1,2,3,4), labels=c("Single", "Divorced", "Widowed", "Other"))
+
+#Label Data
+label(data$gender.f) <-"Gender"
+label(data$age_own) <-"Age"
+label(data$height_own) <-"Height"
+label(data$status.f) <-"Status"
+label(data$educ.f) <- "Educ"
+label(data$parent.f) <- "Parent"
+
+# Create Age Categorical Variable 
+data$age_category[data$age_own >= 18 & data$age_own <=24 ] <- "18-24"
+data$age_category[data$age_own >= 25 & data$age_own <= 29] <- "25-29"
+data$age_category[data$age_own >= 30 & data$age_own <= 34] <- "30-34"
+data$age_category[data$age_own >= 35 & data$age_own <= 39] <- "35-39"
+data$age_category[data$age_own >= 40 & data$age_own <= 44] <- "40-44"
+data$age_category[data$age_own >= 45 & data$age_own <= 49] <- "45-49"
+data$age_category[data$age_own >= 50 & data$age_own <= 54] <- "50-54"
+data$age_category[data$age_own >= 55 & data$age_own <= 59] <- "55-59"
+data$age_category[data$age_own >= 60 & data$age_own <= 64] <- "60-64"
+data$age_category[data$age_own >= 65 & data$age_own <= 69] <- "65-69"
+data$age_category[data$age_own >= 70 & data$age_own <= 74] <- "70-74"
+data$age_category[data$age_own >= 75 & data$age_own <= 79] <- "75-79"
+data$age_category[data$age_own >= 80 & data$age_own <= 85] <- "80-84"
+
+
+## Create New Variable for comparison between online and (offline + parent)
+
+# Online
+data$parent_platform[data$online_dummy == 1 ] <- 0
+
+# Offline Known Parent
+data$parent_platform[data$online_dummy == 0 & data$parent_dummy ==1 ] <- 1
+
+# Factor Variable
+data$parentplatform.f <- factor(data$parent_platform, levels= c(0,1),
+                                 labels = c("Online", "Offline Parent"))
+
+## Create New variable to indicate offline_unknown, offline_known
+
+#Offline Unknown
+data$offline_known[data$online_dummy == 0 & data$parent_dummy==0 ] <- 0
+
+#Online Unknown
+data$offline_known[data$online_dummy == 0 & data$parent_dummy==1 ] <- 1
+
+# Factor Variable
+data$offline_known.f <- factor(data$offline_known, levels= c(0,1),
+                                labels = c("Offline Unknown", "Offline Parent"))
+
+
+```
+
+
+# Section 3: Generate Diff Variables  
+```{r}
+#################################################################
+##                          Section 3:                         ##
+##                   Generate Diff Variables                   ##
+#################################################################
+
+##Age##
+
+#If missing data for max or min, replace with non missing-value
+data <- data %>%
+  mutate(minage_partner = ifelse(
+    is.na(minage_partner) == TRUE, maxage_partner, minage_partner
+  ))
+
+data<- data %>%
+  mutate(maxage_partner = ifelse(
+    is.na(maxage_partner) == TRUE, minage_partner, maxage_partner
+  ))
+
+#Calculate mean_age_partner
+data$mean_age_partner <- ((data$maxage_partner + data$minage_partner)/2)
+
+#Calculate Age distance
+data$age_distance <- data$mean_age_partner - data$age_own
+
+##Height##
+
+#If missing data for max or min, replace with non missing-value
+data <- data %>%
+  mutate(minheight_partner = ifelse(
+    is.na(minheight_partner) == TRUE, maxheight_partner, minheight_partner
+  ))
+
+data<- data %>%
+  mutate(maxheight_partner = ifelse(
+    is.na(maxheight_partner) == TRUE, minheight_partner, maxheight_partner
+  ))
+
+#Calculate mean_age_partner
+data$mean_height_partner <- ((data$maxheight_partner + data$minheight_partner)/2)
+
+#Calculate Age distance
+data$height_distance <- data$mean_height_partner - data$height_own
+
+
+#Education
+data$educ_compar[data$educ_own_levels != 0 
+                 & data$min_educ_partner_levels == 0] <- "Unspecified Partner"
+data$educ_compar[data$educ_own_levels != 0 
+                 & (data$educ_own_levels > data$min_educ_partner_levels)] <- "Specify Lower Partner Educ"
+data$educ_compar[data$educ_own_levels != 0 
+                 & (data$educ_own_levels == data$min_educ_partner_levels)] <- "Specify Same Partner Educ"
+data$educ_compar[data$educ_own_levels != 0 
+                 & (data$educ_own_levels < data$min_educ_partner_levels)] <- "Specify Higher Partner Educ"
+table(data$educ_compar)
+
+#Create Binary Variable for Specifying Greater or Equal Education
+data$ge_educ[data$educ_compar == "Specify Higher Partner Educ"] = 1
+data$ge_educ[data$educ_compar == "Specify Same Partner Educ"] = 1
+data$ge_educ[data$educ_compar == "Specify Lower Partner Educ"] = 0
+data$ge_educ[data$educ_compar == "Unspecified Partner"] = NA
+
+#Labelling
+label(data$age_distance) <-"Diff in Age (yrs)"
+label(data$height_distance) <-"Diff in Height (cm)"
+label(data$educ_compar) <- "Diff in Educ (levels)"
+label(data$ge_educ) <- "Greater or Equal Education (0/1)"
+```
+
+
+# Section 4: Subset DataFrames
+```{r}
+#################################################################
+##                          Section 4:                         ##
+##                      Subset Dataframes                      ##
+#################################################################
+
+
+# Make Split Data Frame by Female/Male
+women <- subset(data, female ==1)
+men <- subset(data, female ==0)
+
+# Make Split Data Frame by Online/Offline
+online.df <-subset(data, online_dummy == 1)
+offline.df <-subset(data, online_dummy == 0)
+
+offline_known.df <-subset(data, offline_known==1)
+
+#Check NA
+sapply(online.df, function(x) sum(is.na(x)))
+sapply(offline.df, function(x) sum(is.na(x)))
+
+```
+
+# Section 5: Online Character Analysis 
+
+```{r}
+#################################################################
+##                          Section 5:                         ##
+##                  Online Character Analysis                  ##
+#################################################################
+
+#Label Data
+label(data$gender.f) <-"Gender"
+label(data$age_own) <-"Age"
+label(data$height_own) <-"Height"
+label(data$status.f) <-"Status"
+label(data$educ.f) <- "Educ"
+label(data$parent.f) <- "Parent"
+
+#Table with Mean, Median, Max
+
+t1 <- table1(~ age_own + height_own + educ.f + status.f + age_distance + height_distance + educ_compar + parent.f | gender.f, data=online.df, overall=F)
+t1
+
+## Age Bar Plots
+p1 <- ggplot(online.df, aes( x = factor(age_category))) + 
+  geom_bar( stat = "count" ) + 
+  facet_wrap( ~ gender.f ) + 
+  xlab("Own Age")
+p1 + theme_bw() + 
+  theme( axis.text.x = element_text( angle = 90,  hjust = 1 ) )
+
+## Height Bar Plots
+p2 <- ggplot(online.df) + 
+  geom_histogram(aes( x = height_own), bins = 20, color="black",alpha=0.9) + 
+  facet_wrap( ~ gender.f ) + 
+  xlab("Own Height (cm)")
+p2 + theme_bw() + 
+  theme( axis.text.x = element_text( angle = 90,  hjust = 1 ) )
+
+## Education Bar Plots
+
+p3 <- ggplot(data = na.omit(subset(online.df, select = c(educ.f, gender.f))),
+             aes(x = factor(educ.f))) + 
+  geom_bar( stat = "count" ) + 
+  facet_wrap( ~ gender.f ) + 
+  xlab("Own Education")
+p3 + theme_bw() + 
+  theme( axis.text.x = element_text( angle = 90,  hjust = 1 ) )
+
+```
+
+
+# Section 6: Online Preference Analysis
+
+```{r, warning = FALSE}
+##################################################################
+##                          Section 6:                          ##
+##                  Online Preference Analysis                  ##
+##################################################################
+
+
+#Plot of age
+age_d_plot1 <- ggplot(online.df) + 
+  geom_density(aes(x=age_distance, 
+                   linetype=gender.f),
+               show.legend=FALSE) +
+  stat_density(aes(x=age_distance, 
+                   shape = gender.f, 
+                   linetype=gender.f),
+               geom="line",position="identity") + 
+  guides(colour = guide_legend(override.aes=list(size=1))) + 
+  theme_minimal() + 
+  labs(x = "Diff in Age (yrs)", y = "Density")  +  
+  theme(legend.position = 'right', 
+        legend.title = element_blank(), 
+        axis.text=element_text(size=12), 
+        text=element_text(family="Times New Roman", face="bold", size=12))+
+  theme(axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0))) +
+  theme(axis.title.x = element_text(margin = margin(t = 20, r = 0, b = 0, l = 0)))
+
+age_d_plot1
+
+#Plot of height
+height_d_plot1 <- ggplot(online.df) + 
+  geom_density(aes(x=height_distance, 
+                   linetype=gender.f),
+               show.legend=FALSE) +
+  stat_density(aes(x=height_distance, 
+                   shape = gender.f, 
+                   linetype=gender.f),
+               geom="line",position="identity") + 
+  guides(colour = guide_legend(override.aes=list(size=1))) + 
+  theme_minimal() + 
+  labs(x = "Diff in Height (cm)", y = "Density")  +  
+  theme(legend.position = 'right', 
+        legend.title = element_blank(), 
+        axis.text=element_text(size=12), 
+        text=element_text(family="Times New Roman", face="bold", size=12))+
+  theme(axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 20, l = 0))) +
+  theme(axis.title.x = element_text(margin = margin(t = 20, r = 0, b = 0, l = 0))) +
+  xlim(-50,50)
+height_d_plot1
+
+# Plot both
+library(cowplot)
+
+theme_set(theme_cowplot(font_size=12,font_family = "Times New Roman")) 
+diff_plot1 <- plot_grid(age_d_plot1, height_d_plot1, labels = c('Age', 'Height'), label_size =16)
+diff_plot1
+
+```
+
+# Section 7: Offline Character Analysis  
+
+```{r}
+#################################################################
+##                          Section 5:                         ##
+##                  Offline Character Analysis                  ##
+#################################################################
+
+#Table with Mean, Median, Max
+t2 <- table1(~ age_own + height_own + educ.f + status.f + age_distance + height_distance + educ_compar + parent.f | gender.f, data=offline.df, overall = F)
+t2
+
+## Age Bar Plots
+p4 <- ggplot(offline.df, aes( x = factor(age_category))) + 
+  geom_bar( stat = "count" ) + 
+  facet_wrap( ~ gender.f ) + 
+  xlab("Own Age")
+p4 + theme_bw() + 
+  theme( axis.text.x = element_text( angle = 90,  hjust = 1 ) )
+
+## Height Bar Plots
+p5 <- ggplot(offline.df) + 
+  geom_histogram(aes( x = height_own), bins = 20, color="black",alpha=0.9) + 
+  facet_wrap( ~ gender.f ) + 
+  xlab("Own Height (cm)")
+p5 + theme_bw() + 
+  theme( axis.text.x = element_text( angle = 90,  hjust = 1 ) )
+
+## Education Bar Plots
+
+p6 <- ggplot(data = na.omit(subset(offline.df, select = c(educ.f, gender.f))),
+             aes(x = factor(educ.f))) + 
+  geom_bar( stat = "count" ) + 
+  facet_wrap( ~ gender.f ) + 
+  xlab("Own Education")
+p6 + theme_bw() + 
+  theme( axis.text.x = element_text( angle = 90,  hjust = 1 ) )
+
+```
+
+
+# Section 8: Offline Preference Analysis
+
+```{r, warning = FALSE}
+##################################################################
+##                          Section 8:                          ##
+##                  Offline Preference Analysis                 ##
+##################################################################
+
+
+#Plot of age
+age_d_plot2 <- ggplot(offline.df) + 
+  geom_density(aes(x=age_distance, 
+                   linetype=gender.f),
+               show.legend=FALSE) +
+  stat_density(aes(x=age_distance, 
+                   shape = gender.f, 
+                   linetype=gender.f),
+               geom="line",position="identity") + 
+  guides(colour = guide_legend(override.aes=list(size=1))) + 
+  theme_minimal() + 
+  labs(x = "Diff in Age (yrs)", y = "Density")  +  
+  theme(legend.position = 'right', 
+        legend.title = element_blank(), 
+        axis.text=element_text(size=12), 
+        text=element_text(family="Times New Roman", face="bold", size=12))+
+  theme(axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0))) +
+  theme(axis.title.x = element_text(margin = margin(t = 20, r = 0, b = 0, l = 0)))
+
+age_d_plot2
+
+#Plot of height
+height_d_plot2 <- ggplot(offline.df) + 
+  geom_density(aes(x=height_distance, 
+                   linetype=gender.f),
+               show.legend=FALSE) +
+  stat_density(aes(x=height_distance, 
+                   shape = gender.f, 
+                   linetype=gender.f),
+               geom="line",position="identity") + 
+  guides(colour = guide_legend(override.aes=list(size=1))) + 
+  theme_minimal() + 
+  labs(x = "Diff in Height (cm)", y = "Density")  +  
+  theme(legend.position = 'right', 
+        legend.title = element_blank(), 
+        axis.text=element_text(size=12), 
+        text=element_text(family="Times New Roman", face="bold", size=12))+
+  theme(axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 20, l = 0))) +
+  theme(axis.title.x = element_text(margin = margin(t = 20, r = 0, b = 0, l = 0))) +
+  xlim(-50,50)
+height_d_plot2
+
+# Plot both
+library(cowplot)
+
+theme_set(theme_cowplot(font_size=12,font_family = "Times New Roman")) 
+diff_plot2 <- plot_grid(age_d_plot2, height_d_plot2, labels = c('Age', 'Height'), label_size =16)
+diff_plot2
+
+```
+
+# Section 9: Disaggregation by Parent
+
+```{r}
+##################################################################
+##                          Section 9:                          ##
+##                   Disaggregation by Parent                   ##
+##################################################################
+
+
+
+#Table for comparing Known Parents and Unknown Parents Women vs Men
+
+## Characteristics 
+t3 <- table1(~ age_own + height_own + educ.f + status.f + age_distance + height_distance + educ_compar + parent.f | gender.f*offline_known.f,
+                              data = offline.df, overall=F)
+t3
+
+
+
+#Table for comparing Known Parents Offline and Online Women vs Men
+
+## Characteristics 
+t4 <- table1(~ age_own + height_own + educ.f + status.f + age_distance + height_distance + educ_compar + parent.f | parentplatform.f*gender.f,
+                              data = data, overall=F)
+t4
+
+
+```
+
+# Section 10: Education Level Preferences
+```{r}
+##################################################################
+##                          Section 10:                         ##
+##                 Education Levels Preferences                 ##
+##################################################################
+
+
+#Create 4 groups
+data$female_online[data$female == 1 & data$online_dummy ==1 ] <- 11
+data$female_online[data$female == 1 & data$online_dummy ==0 ] <- 10
+data$female_online[data$female == 0 & data$online_dummy ==1 ] <- 01
+data$female_online[data$female == 0 & data$online_dummy ==0 ] <- 00
+
+
+data$group.f <- factor(data$female_online, levels= c(11,10,01,00),
+                       labels = c("Female Online", "Female Offline", 
+                                  "Male Online", "Male Offline"))
+
+label(data$group.f) <-"Group"
+
+
+# Make Split Data Frame
+d.female_online <- subset(data, female_online ==11)
+d.male_online <- subset(data, female_online ==01)
+d.female_offline <- subset(data, female_online ==10)
+d.male_offline <- subset(data, female_online ==00)
+
+##Get Variable Counts
+
+#Female Online
+fon <- d.female_online %>%
+  group_by(educ.f, min_educ_partner.f) %>%
+  summarise(count = n()) %>%
+  spread(min_educ_partner.f, count)
+fon
+
+#Female Offline
+fof <- d.female_offline %>%
+  group_by(educ.f, min_educ_partner.f) %>%
+  summarise(count = n()) %>%
+  spread(min_educ_partner.f, count)
+fof
+
+#Male Online
+mon <- d.male_online %>%
+  group_by(educ.f, min_educ_partner.f) %>%
+  summarise(count = n()) %>%
+  spread(min_educ_partner.f, count)
+mon
+
+#Male Offline
+mof <- d.male_offline %>%
+  group_by(educ.f, min_educ_partner.f) %>%
+  summarise(count = n()) %>%
+  spread(min_educ_partner.f, count)
+mof
+```
+
+# Sankey Diagrams
+
+```{r}
+## Load Sankey Diagram Data
+library(networkD3)
+educ_links <- read_excel("educ_links_no_zeros.xlsx", 
+                         col_types = c("text", "text", "numeric", 
+                                       "text"))
+head(educ_links)
+
+
+
+```
+
+## Female Online
+```{r}
+## FEMALE ONLINE
+fon_links <- subset(educ_links[0:3], educ_links$group == "female_online")
+
+
+nodes <- data.frame(name=c(as.character(fon_links$source), as.character(fon_links$target)) %>% unique())
+
+
+fon_links$IDsource=match(fon_links$source, nodes$name)-1 
+fon_links$IDtarget=match(fon_links$target, nodes$name)-1
+
+ColourScal =# prepare colour scale
+'d3.scaleOrdinal() .range(["#17202A","#17202A","#17202A","#17202A","#17202A","#17202A","#17202A","#17202A","#17202A","#17202A","#17202A","#17202A"])'
+
+# FEMALE ONLINE DIGRAM
+sankeyNetwork(Links = fon_links, Nodes = nodes,
+              Source = "IDsource", Target = "IDtarget",
+              Value = "value", NodeID = "name", 
+              iterations = 0,
+              sinksRight=FALSE, colourScale=ColourScal, nodeWidth=40, fontSize=13, nodePadding=20)
+```
+
+## Female Offline
+```{r}
+## FEMALE OFFLINE
+fof_links <- subset(educ_links[0:3], educ_links$group == "female_offline")
+
+
+nodes <- data.frame(name=c(as.character(fof_links$source), as.character(fof_links$target)) %>% unique())
+
+
+fof_links$IDsource=match(fof_links$source, nodes$name)-1 
+fof_links$IDtarget=match(fof_links$target, nodes$name)-1
+
+# prepare colour scale
+ColourScal =# prepare colour scale
+'d3.scaleOrdinal() .range(["#17202A","#17202A","#17202A","#17202A","#17202A","#17202A","#17202A","#17202A","#17202A","#17202A","#17202A","#17202A"])'
+
+# FEMALE OFFLINE DIGRAM
+sankeyNetwork(Links = fof_links, Nodes = nodes,
+              Source = "IDsource", Target = "IDtarget",
+              Value = "value", NodeID = "name", 
+              iterations = 0,
+              sinksRight=FALSE, colourScale=ColourScal, nodeWidth=40, fontSize=13, nodePadding=20)
+```
+
+## Male Online
+```{r}
+## Male Online
+mon_links <- subset(educ_links[0:3], educ_links$group == "male_online")
+
+
+nodes <- data.frame(name=c(as.character(mon_links$source), as.character(mon_links$target)) %>% unique())
+
+
+mon_links$IDsource=match(mon_links$source, nodes$name)-1 
+mon_links$IDtarget=match(mon_links$target, nodes$name)-1
+
+# prepare colour scale
+ColourScal =# prepare colour scale
+'d3.scaleOrdinal() .range(["#17202A","#17202A","#17202A","#17202A","#17202A","#17202A","#17202A","#17202A","#17202A","#17202A","#17202A","#17202A"])'
+
+# MALE ONLINE DIGRAM
+sankeyNetwork(Links = mon_links, Nodes = nodes,
+              Source = "IDsource", Target = "IDtarget",
+              Value = "value", NodeID = "name", 
+              iterations = 0,
+              sinksRight=FALSE, colourScale=ColourScal, nodeWidth=40, fontSize=13, nodePadding=20)
+```
+
+## Male Offline
+```{r}
+## Male Offline
+mof_links <- subset(educ_links[0:3], educ_links$group == "male_offline")
+
+
+nodes <- data.frame(name=c(as.character(mof_links$source), as.character(mof_links$target)) %>% unique())
+
+
+mof_links$IDsource=match(mof_links$source, nodes$name)-1 
+mof_links$IDtarget=match(mof_links$target, nodes$name)-1
+
+# prepare colour scale
+ColourScal =# prepare colour scale
+'d3.scaleOrdinal() .range(["#17202A","#17202A","#17202A","#17202A","#17202A","#17202A","#17202A","#17202A","#17202A","#17202A","#17202A","#17202A"])'
+
+# MALE OFFLINE DIGRAM
+sankeyNetwork(Links = mof_links, Nodes = nodes,
+              Source = "IDsource", Target = "IDtarget",
+              Value = "value", NodeID = "name", 
+              iterations = 0,
+              sinksRight=FALSE, colourScale=ColourScal, nodeWidth=40, fontSize=13, nodePadding=20)
+```
+
+# Section 11: P Value/ Chi Square Calculations
+```{r}
+library(furniture)
+
+# Male Female Online (TABLE 1)
+## p-value M/F Online
+
+
+
+s1 <- table1(online.df,
+       age_own, height_own, educ.f, status.f, age_distance, height_distance, educ_compar,
+       splitby = ~gender.f,
+       test = TRUE,
+       na.rm = FALSE,
+       output = "html")
+s1 
+
+
+#Male Female Offline (TABLE 1)
+## p-value M/F Offline
+
+s2 <- table1(offline.df,
+       age_own, height_own, educ.f, status.f, age_distance, height_distance, educ_compar, parent.f,
+       splitby = ~gender.f,
+       test = TRUE,
+       na.rm = FALSE,
+       output = "html")
+s2
+
+# Male Male by Platform
+## p-value M/M by platform
+s3 <- table1(men,
+       age_own, height_own, educ.f, status.f, age_distance, height_distance, educ_compar, parent.f,
+       splitby = ~online.f,
+       test = TRUE,
+       na.rm = FALSE,
+       output = "html")
+s3
+
+# Female Female by Platform
+## p-value F/F by platform
+s4 <- table1(women,
+       age_own, height_own, educ.f, status.f, age_distance, height_distance, educ_compar, parent.f,
+       splitby = ~online.f,
+       test = TRUE,
+       na.rm = FALSE,
+       output = "html")
+s4
+
+
+
+#Known Parent and Unknown Parent Male Male Offline Only  (TABLE 2)
+## M/M p-value by parent
+s5 <- table1(men, 
+       age_own, height_own, educ.f, status.f, age_distance, height_distance, educ_compar, parent.f,
+       splitby = ~offline_known.f, 
+       test = TRUE, 
+       na.rm = FALSE,
+       output = "html")
+s5 
+
+
+# Known Parent and Unknown Parent Female Female Offline Only 
+## p-value F/F by parent
+s6 <- table1(women, 
+       age_own, height_own, educ.f, status.f, age_distance, height_distance, educ_compar, parent.f,
+       splitby = ~offline_known.f, 
+       test = TRUE, 
+       na.rm = FALSE,
+       output = "html")
+s6
+
+
+# Known Parent Offline and Online Male Male 
+## p-value M/M by platform/parent
+s7 <- table1(men, 
+       age_own, height_own, educ.f, status.f, age_distance, height_distance, educ_compar, parent.f,
+       splitby = ~parentplatform.f, 
+       test = TRUE, 
+       na.rm = FALSE,
+       output = "html")
+s7
+
+
+# Known Parent Offline and Online Female Female
+## p-value F/F by platform/parent
+
+s8 <- table1(women, 
+       age_own, height_own, educ.f, status.f, age_distance, height_distance, educ_compar, parent.f,
+       splitby = ~parentplatform.f, 
+       test = TRUE, 
+       na.rm = FALSE,
+       output = "html")
+s8
+
+# Known Parent Offline Male vs Female
+
+s9 <- table1(offline_known.df, 
+       age_own, height_own, educ.f, status.f, age_distance, height_distance, educ_compar,
+       splitby = ~gender.f, 
+       test = TRUE, 
+       na.rm = FALSE,
+       output = "html")
+s9
+
+```
+
+# Section 12: Regression 
+
+```{r}
+
+# Age Distance
+mlm1 <- lm(age_distance~ age_own + height_own + parent_platform + educ.f + status.f, data = women)
+summary(mlm1)
+
+mlm2 <- lm(age_distance~ age_own + height_own + parent_platform + educ.f + status.f, data = men)
+summary(mlm2)
+
+
+# Height Distance
+mlm3 <- lm(height_distance~ age_own + height_own + parent_platform + educ.f + status.f, data = women)
+summary(mlm3)
+
+mlm4 <- lm(height_distance~ age_own + height_own + parent_platform + educ.f + status.f, data = men)
+summary(mlm4)
+
+
+# Educ Distance
+probit1 <- glm(ge_educ ~ age_own + height_own + parent_platform + educ.f + status.f, family = binomial(link = "probit"), data = women)
+summary(probit1)
+
+
+probit2 <- glm(ge_educ ~ age_own + height_own + parent_platform + educ.f + status.f, family = binomial(link = "probit"), data = men)
+summary(probit2)
+

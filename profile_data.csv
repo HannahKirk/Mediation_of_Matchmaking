@@ -1,0 +1,775 @@
+﻿id,phone_id,online,online_dummy,parent_yn,parent_dummy,gender_own,female,age_own,minage_partner,maxage_partner,height_own,minheight_partner,maxheight_partner,appearance_own,apperance_partner,appearance_own_level,apperance_partner_level,goodlooking_own,goodlooking_partner,status_own,status_own_levels,educ_own,educ_own_levels,min_educ_partner,min_educ_partner_levels
+1,,online,1,,0,male,0,31,24,34,165.1,157.48,165.1,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+2,,online,1,,0,male,0,34,25,44,177.8,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+3,,online,1,,0,male,0,33,25,36,177.8,160.02,175.26,below average,any,1,0,,,widowed,3,masters degree,4,high school,1
+4,,online,1,,0,male,0,32,18,26,172.72,,,attractive,"very attractive, attractive",3,3,,,single,1,bachelors degree,3,any,0
+5,,online,1,,0,male,0,35,28,40,177.8,149.86,175.26,below average,average,1,2,,,single,1,bachelors degree,3,bachelors degree,3
+6,,online,1,,0,male,0,37,22,30,172.72,160.02,175.26,average,any,2,0,,,divorced,2,bachelors degree,3,high school,1
+7,,online,1,,0,male,0,38,22,37,170.18,,,average,any,2,0,,,single,1,high school,1,any,0
+8,,online,1,,0,male,0,33,24,38,177.8,154.94,,attractive,"very attractive, attractive, average",3,2,,,single,1,phd or doctorate,5,vocational college,2
+9,,online,1,,0,male,0,34,23,30,172.72,160.02,,attractive,attractive,3,3,,,single,1,vocational college,2,any,0
+10,,online,1,,0,male,0,32,20,30,167.64,,,average,any,2,0,,,single,1,masters degree,4,any,0
+11,,online,1,,0,male,0,36,21,65,177.8,,,attractive,"very attractive, attractive",3,3,,,divorced,2,bachelors degree,3,any,0
+12,,online,1,,0,male,0,39,18,39,172.72,,,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+13,,online,1,,0,male,0,38,29,34,170.18,154.94,162.56,average,average,2,2,,,divorced,2,bachelors degree,3,vocational college,2
+14,,online,1,,0,male,0,48,30,60,170.18,,,average,any,2,0,,,divorced,2,high school,1,any,0
+15,,online,1,,0,male,0,33,28,36,177.8,149.86,170.18,below average,any,1,0,,,single,1,bachelors degree,3,high school,1
+16,,online,1,,0,male,0,48,35,50,170.18,,,below average,"average, below average",1,2,,,divorced,2,bachelors degree,3,high school,1
+17,,online,1,,0,male,0,33,22,40,177.8,162.56,175.26,attractive,attractive,3,3,,,single,1,bachelors degree,3,any,0
+18,,online,1,,0,male,0,33,27,35,182.88,,,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+19,,online,1,,0,male,0,50,42,53,170.18,,,below average,any,1,0,,,divorced,2,bachelors degree,3,any,0
+20,,online,1,,0,male,0,50,42,53,170.18,,,below average,any,1,0,,,divorced,2,bachelors degree,3,any,0
+21,,online,1,,0,male,0,32,27,40,177.8,,,below average,any,1,0,,,divorced,2,middle school / junior high,1,any,0
+22,,online,1,,0,male,0,26,23,35,180.34,,,below average,any,1,0,,,single,1,bachelors degree,3,bachelors degree,3
+23,,online,1,,0,male,0,19,18,25,177.8,,,attractive,attractive,3,3,,,other,4,high school,1,any,0
+24,,online,1,,0,male,0,27,19,24,177.8,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+25,,online,1,,0,male,0,32,29,45,175.26,,,below average,any,1,0,,,divorced,2,bachelors degree,3,any,0
+26,,online,1,,0,male,0,35,21,37,177.8,,,average,any,2,0,,,other,4,bachelors degree,3,any,0
+27,,online,1,,0,male,0,27,18,30,177.8,,,average,any,2,0,,,single,1,bachelors degree,3,any,0
+28,,online,1,,0,male,0,44,24,42,172.72,,,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+29,,online,1,,0,male,0,40,30,45,180.34,157.48,175.26,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+30,,online,1,,0,male,0,28,19,32,177.8,,,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+31,,online,1,,0,male,0,32,23,43,180.34,,,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+32,,online,1,,0,male,0,36,30,38,177.8,152.4,177.8,average,any,2,0,,,single,1,vocational college,2,high school,1
+33,,online,1,,0,male,0,35,30,38,177.8,,,average,any,2,0,,,single,1,vocational college,2,any,0
+34,,online,1,,0,male,0,20,18,25,172.72,,,below average,any,1,0,,,single,1,high school,1,any,0
+35,,online,1,,0,male,0,29,23,33,182.88,160.02,180.34,average,any,2,0,,,divorced,2,bachelors degree,3,vocational college,2
+36,,online,1,,0,male,0,31,20,35,177.8,160.02,,average,any,2,0,,,single,1,bachelors degree,3,bachelors degree,3
+37,,online,1,,0,male,0,25,19,25,175.26,154.94,175.26,average,average,2,2,,,single,1,high school,1,any,0
+38,,online,1,,0,male,0,31,20,35,177.8,154.94,170.18,average,any,2,0,,,single,1,bachelors degree,3,any,0
+39,,online,1,,0,male,0,38,22,38,175.26,,,below average,any,1,0,,,single,1,masters degree,4,any,0
+40,,online,1,,0,male,0,38,28,40,175.26,149.86,,below average,any,1,0,,,divorced,2,vocational college,2,any,0
+41,,online,1,,0,male,0,35,28,37,170.18,,,average,any,2,0,,,single,1,bachelors degree,3,middle school / junior high,1
+42,,online,1,,0,male,0,40,23,40,170.18,,,very attractive,any,4,0,,,single,1,phd or doctorate,5,any,0
+43,,online,1,,0,male,0,31,20,35,177.8,,,average,any,2,0,,,single,1,bachelors degree,3,high school,1
+44,,online,1,,0,male,0,33,25,45,177.8,,,below average,any,1,0,,,divorced,2,bachelors degree,3,any,0
+45,,online,1,,0,male,0,35,28,50,182.88,,,average,any,2,0,,,single,1,vocational college,2,any,0
+46,,online,1,,0,male,0,31,20,35,172.72,,,below average,any,1,0,,,other,4,bachelors degree,3,any,0
+47,,online,1,,0,male,0,30,25,30,175.26,,,below average,any,1,0,,,divorced,2,masters degree,4,any,0
+48,,online,1,,0,male,0,35,34,52,177.8,,,attractive,any,3,0,,,other,4,bachelors degree,3,any,0
+49,,online,1,,0,male,0,35,29,36,177.8,162.56,,below average,any,1,0,,,divorced,2,high school,1,any,0
+50,,online,1,,0,male,0,27,19,32,182.88,,,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+51,,online,1,,0,male,0,29,30,40,177.8,,,average,any,2,0,,,single,1,phd or doctorate,5,any,0
+52,,online,1,,0,male,0,35,29,40,175.26,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+53,,online,1,,0,male,0,50,30,38,170.18,154.94,175.26,very attractive,any,4,0,,,divorced,2,bachelors degree,3,high school,1
+54,,online,1,,0,male,0,50,42,53,170.18,157.48,170.18,below average,any,1,0,,,divorced,2,bachelors degree,3,any,0
+55,,online,1,,0,male,0,50,34,45,172.72,154.94,165.1,attractive,any,3,0,,,other,4,vocational college,2,vocational college,2
+56,,online,1,,0,male,0,27,19,30,175.26,,,average,any,2,0,,,single,1,bachelors degree,3,any,0
+57,,online,1,,0,male,0,29,19,33,172.72,,,average,any,2,0,,,divorced,2,middle school / junior high,1,any,0
+58,,online,1,,0,male,0,33,20,35,165.1,,,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+59,,online,1,,0,male,0,29,19,30,170.18,,,average,any,2,0,,,single,1,bachelors degree,3,vocational college,2
+60,,online,1,,0,male,0,21,18,26,175.26,,,attractive,any,3,0,,,single,1,vocational college,2,any,0
+61,,online,1,,0,male,0,24,18,28,180.34,,,average,any,2,0,,,single,1,high school,1,any,0
+62,,online,1,,0,male,0,31,18,45,175.26,160.02,175.26,below average,"very attractive, attractive",1,3,,,divorced,2,bachelors degree,3,high school,1
+63,,online,1,,0,male,0,21,19,23,172.72,,,average,average,2,2,,,single,1,high school,1,any,0
+64,,online,1,,0,male,0,44,36,44,172.72,162.56,172.72,below average,any,1,0,,,divorced,2,bachelors degree,3,any,0
+65,,online,1,,0,male,0,41,26,38,170.18,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+66,,online,1,,0,male,0,36,21,37,167.64,,,average,any,2,0,,,separated,2,bachelors degree,3,any,0
+67,,online,1,,0,male,0,26,18,25,175.26,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+68,,online,1,,0,male,0,43,30,41,172.72,160.02,,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+69,,online,1,,0,male,0,48,18,40,170.18,,,average,any,2,0,,,divorced,2,vocational college,2,any,0
+70,,online,1,,0,male,0,29,19,32,172.72,,,below average,any,1,0,,,single,1,vocational college,2,any,0
+71,,online,1,,0,male,0,32,18,29,175.26,,220.98,attractive,any,3,0,,,single,1,masters degree,4,any,0
+72,,online,1,,0,male,0,36,30,37,175.26,154.94,172.72,attractive,any,3,0,,,single,1,bachelors degree,3,high school,1
+73,,online,1,,0,male,0,32,20,35,175.26,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+74,,online,1,,0,male,0,47,20,40,170.18,,,below average,any,1,0,,,divorced,2,bachelors degree,3,any,0
+75,,online,1,,0,male,0,28,19,35,170.18,,,below average,attractive,1,3,,,single,1,bachelors degree,3,any,0
+76,,online,1,,0,male,0,33,31,40,182.88,,,average,any,2,0,,,single,1,bachelors degree,3,any,0
+77,,online,1,,0,male,0,29,20,35,165.1,149.86,170.18,average,average,2,2,,,single,1,high school,1,primary (elementary) school,1
+78,,online,1,,0,male,0,37,26,39,170.18,,,below average,below average,1,1,,,single,1,bachelors degree,3,any,0
+79,,online,1,,0,male,0,35,28,40,175.26,,,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+80,,online,1,,0,male,0,34,21,32,170.18,,162.56,average,any,2,0,,,divorced,2,high school,1,any,0
+81,,online,1,,0,male,0,21,18,26,180.34,,,attractive,any,3,0,,,single,1,masters degree,4,any,0
+82,,online,1,,0,male,0,43,24,41,175.26,,,average,any,2,0,,,divorced,2,high school,1,any,0
+83,,online,1,,0,male,0,30,26,40,177.8,149.86,172.72,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+84,,online,1,,0,male,0,33,28,35,177.8,,,below average,any,1,0,,,divorced,2,bachelors degree,3,any,0
+85,,online,1,,0,male,0,36,29,45,175.26,165.1,172.72,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+86,,online,1,,0,male,0,38,26,43,170.18,152.4,167.64,average,any,2,0,,,single,1,vocational college,2,middle school / junior high,1
+87,,online,1,,0,male,0,48,25,38,167.64,,,average,any,2,0,,,divorced,2,masters degree,4,high school,1
+88,,online,1,,0,male,0,34,21,30,165.1,,,average,any,2,0,,,divorced,2,bachelors degree,3,any,0
+89,,online,1,,0,male,0,21,21,31,175.26,,,average,any,2,0,,,single,1,high school,1,any,0
+90,,online,1,,0,male,0,41,32,44,177.8,,,average,any,2,0,,,divorced,2,vocational college,2,any,0
+91,,online,1,,0,male,0,48,27,44,175.26,149.86,170.18,attractive,"attractive, average",3,2,,,divorced,2,bachelors degree,3,any,0
+92,,online,1,,0,male,0,31,20,35,170.18,160.02,170.18,attractive,"very attractive, attractive",3,3,,,other,4,vocational college,2,vocational college,2
+93,,online,1,,0,male,0,29,22,37,180.34,,,average,below average,2,1,,,single,1,bachelors degree,3,any,0
+94,,online,1,,0,male,0,22,18,22,165.1,,170.18,below average,any,1,0,,,single,1,bachelors degree,3,bachelors degree,3
+95,,online,1,,0,male,0,20,18,25,165.1,,,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+96,,online,1,,0,male,0,23,18,28,175.26,,,average,any,2,0,,,single,1,bachelors degree,3,any,0
+97,,online,1,,0,male,0,19,18,25,170.18,149.86,185.42,below average,very attractive,1,3,,,single,1,high school,1,high school,1
+98,,online,1,,0,male,0,43,24,41,165.1,,,average,any,2,0,,,divorced,2,bachelors degree,3,any,0
+99,,online,1,,0,male,0,35,21,37,170.18,,,average,any,2,0,,,other,4,bachelors degree,3,any,0
+100,,online,1,,0,male,0,35,24,34,170.18,,,below average,any,1,0,,,single,1,high school,1,any,0
+101,,online,1,,0,male,0,50,32,50,177.8,,,attractive,any,3,0,,,separated,2,bachelors degree,3,any,0
+102,,online,1,,0,male,0,34,21,30,185.42,160.02,185.42,below average,any,1,0,,,single,1,bachelors degree,3,high school,1
+103,,online,1,,0,male,0,39,22,39,177.8,,,below average,any,1,0,,,widowed,3,bachelors degree,3,any,0
+104,,online,1,,0,male,0,28,19,32,177.8,,,average,any,2,0,,,single,1,bachelors degree,3,any,0
+105,,online,1,,0,male,0,47,51,52,170.18,160.02,165.1,attractive,below average,3,1,,,separated,2,bachelors degree,3,bachelors degree,3
+106,,online,1,,0,male,0,24,18,24,175.26,149.86,170.18,average,any,2,0,,,single,1,vocational college,2,any,0
+107,,online,1,,0,male,0,28,19,33,177.8,,,very attractive,any,4,0,,,single,1,phd or doctorate,5,bachelors degree,3
+108,,online,1,,0,male,0,28,18,28,175.26,160.02,170.18,attractive,"average, below average",3,2,,,single,1,bachelors degree,3,any,0
+109,,online,1,,0,male,0,24,18,24,172.72,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+110,,online,1,,0,male,0,30,19,33,175.26,160.02,165.1,very attractive,very attractive,4,3,,,single,1,phd or doctorate,5,bachelors degree,3
+111,,online,1,,0,male,0,29,19,33,172.72,165.1,180.34,below average,any,1,0,,,single,1,bachelors degree,3,bachelors degree,3
+112,,online,1,,0,male,0,30,18,23,177.8,165.1,170.18,average,any,2,0,,,single,1,bachelors degree,3,any,0
+113,,online,1,,0,male,0,26,19,26,175.26,165.1,175.26,below average,"average, below average",1,2,,,single,1,middle school / junior high,1,middle school / junior high,1
+114,,online,1,,0,male,0,37,21,36,170.18,,,average,any,2,0,,,other,4,bachelors degree,3,any,0
+115,,online,1,,0,male,0,44,35,50,172.72,,,below average,any,1,0,,,other,4,bachelors degree,3,any,0
+116,,online,1,,0,male,0,47,23,43,175.26,149.86,162.56,average,any,2,0,,,single,1,bachelors degree,3,vocational college,2
+117,,online,1,,0,male,0,28,19,32,170.18,,,below average,average,1,2,,,single,1,bachelors degree,3,high school,1
+118,,online,1,,0,male,0,35,30,40,170.18,160.02,175.26,below average,any,1,0,,,divorced,2,phd or doctorate,5,any,0
+119,,online,1,,0,male,0,21,18,32,177.8,,,attractive,any,3,0,,,single,1,vocational college,2,any,0
+120,,online,1,,0,male,0,30,23,33,172.72,154.94,170.18,below average,below average,1,1,,,single,1,bachelors degree,3,bachelors degree,3
+121,,online,1,,0,male,0,47,20,38,175.26,157.48,177.8,below average,"average, below average",1,2,,,single,1,bachelors degree,3,any,0
+122,,online,1,,0,male,0,29,19,32,175.26,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+123,,online,1,,0,male,0,29,19,26,175.26,162.56,,attractive,"very attractive, attractive, average",3,2,,,single,1,bachelors degree,3,any,0
+124,,online,1,,0,male,0,40,23,40,180.34,,,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+125,,online,1,,0,male,0,42,24,41,170.18,,,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+126,,online,1,,0,male,0,46,18,40,177.8,154.94,180.34,very attractive,any,4,0,,,single,1,bachelors degree,3,middle school / junior high,1
+127,,online,1,,0,male,0,27,25,38,172.72,157.48,,average,any,2,0,,,single,1,high school,1,any,0
+128,,online,1,,0,male,0,38,21,36,175.26,,,average,any,2,0,,,separated,2,high school,1,any,0
+129,,online,1,,0,male,0,27,19,32,177.8,,,average,any,2,0,,,single,1,bachelors degree,3,any,0
+130,,online,1,,0,male,0,24,18,28,177.8,,,average,any,2,0,,,single,1,vocational college,2,any,0
+131,,online,1,,0,male,0,29,24,33,172.72,154.94,170.18,average,any,2,0,,,single,1,bachelors degree,3,vocational college,2
+132,,online,1,,0,male,0,34,21,35,175.26,,,very attractive,any,4,0,,,single,1,bachelors degree,3,any,0
+133,,online,1,,0,male,0,31,18,36,177.8,,,average,any,2,0,,,single,1,bachelors degree,3,any,0
+134,,online,1,,0,male,0,21,18,23,175.26,160.02,167.64,below average,attractive,1,3,,,single,1,bachelors degree,3,any,0
+135,,online,1,,0,male,0,30,35,43,165.1,149.86,165.1,attractive,any,3,0,,,single,1,bachelors degree,3,vocational college,2
+136,,online,1,,0,male,0,39,22,38,165.1,154.94,160.02,average,attractive,2,3,,,single,1,bachelors degree,3,bachelors degree,3
+137,,online,1,,0,male,0,46,22,35,177.8,154.94,177.8,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+138,,online,1,,0,male,0,30,19,33,165.1,,,below average,any,1,0,,,single,1,high school,1,any,0
+139,,online,1,,0,male,0,46,25,45,172.72,154.94,170.18,below average,any,1,0,,,divorced,2,high school,1,high school,1
+140,,online,1,,0,male,0,49,27,45,170.18,160.02,,below average,attractive,1,3,,,single,1,bachelors degree,3,high school,1
+141,,online,1,,0,male,0,29,19,31,177.8,,,attractive,"very attractive, attractive",3,3,,,single,1,phd or doctorate,5,any,0
+142,,online,1,,0,male,0,34,21,33,175.26,,,attractive,any,3,0,,,single,1,masters degree,4,high school,1
+143,,online,1,,0,male,0,32,18,35,177.8,160.02,180.34,very attractive,"very attractive, attractive, average",4,2,,,separated,2,bachelors degree,3,any,0
+144,,online,1,,0,male,0,28,19,32,175.26,,,attractive,any,3,0,,,single,1,masters degree,4,any,0
+145,,online,1,,0,male,0,32,20,35,175.26,,,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+146,,online,1,,0,male,0,20,18,22,170.18,,,average,any,2,0,,,single,1,bachelors degree,3,any,0
+147,,online,1,,0,male,0,30,33,45,177.8,,,average,any,2,0,,,single,1,bachelors degree,3,any,0
+148,,online,1,,0,male,0,49,27,45,177.8,,,below average,attractive,1,3,,,divorced,2,bachelors degree,3,any,0
+149,,online,1,,0,male,0,32,25,35,170.18,,,average,any,2,0,,,divorced,2,high school,1,any,0
+150,,online,1,,0,male,0,44,22,38,172.72,157.48,172.72,attractive,"attractive, below average",3,3,,,divorced,2,bachelors degree,3,high school,1
+151,,online,1,,0,male,0,35,28,38,182.88,152.4,172.72,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+152,,online,1,,0,male,0,24,18,25,,,,no answer,any,,0,,,single,1,no answer,0,any,0
+153,,online,1,,0,male,0,33,22,36,175.26,,,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+154,,online,1,,0,male,0,38,22,38,175.26,,,attractive,any,3,0,,,divorced,2,vocational college,2,any,0
+155,,online,1,,0,male,0,38,21,36,167.64,,,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+156,,online,1,,0,male,0,32,any,,170.18,,,average,any,2,0,,,single,1,vocational college,2,any,0
+157,,online,1,,0,male,0,35,21,37,175.26,,,below average,any,1,0,,,divorced,2,bachelors degree,3,any,0
+158,,online,1,,0,male,0,29,19,35,177.8,160.02,,average,average,2,2,,,single,1,bachelors degree,3,any,0
+159,,online,1,,0,male,0,26,19,31,160.02,149.86,165.1,below average,below average,1,1,,,single,1,bachelors degree,3,bachelors degree,3
+160,,online,1,,0,male,0,32,18,99,180.34,,,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+161,,online,1,,0,male,0,26,19,25,167.64,,,average,any,2,0,,,single,1,masters degree,4,any,0
+162,,online,1,,0,male,0,31,20,35,172.72,154.94,165.1,below average,average,1,2,,,single,1,vocational college,2,any,0
+163,,online,1,,0,male,0,27,19,32,172.72,,,below average,any,1,0,,,other,4,high school,1,any,0
+164,,online,1,,0,male,0,41,23,40,177.8,,,average,any,2,0,,,widowed,3,bachelors degree,3,any,0
+165,,online,1,,0,male,0,32,19,32,175.26,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+166,,online,1,,0,male,0,43,35,41,160.02,,,attractive,average,3,2,,,divorced,2,high school,1,any,0
+167,,online,1,,0,male,0,30,24,29,172.72,,,below average,any,1,0,,,single,1,bachelors degree,3,high school,1
+168,,online,1,,0,male,0,35,22,30,162.56,,,attractive,any,3,0,,,single,1,bachelors degree,3,bachelors degree,3
+169,,online,1,,0,male,0,26,19,31,180.34,,,average,any,2,0,,,single,1,high school,1,any,0
+170,,online,1,,0,male,0,38,21,37,165.1,,,below average,any,1,0,,,divorced,2,high school,1,any,0
+171,,online,1,,0,male,0,35,21,62,175.26,,,very attractive,any,4,0,,,single,1,bachelors degree,3,any,0
+172,,online,1,,0,male,0,26,18,28,172.72,,,attractive,any,3,0,,,single,1,high school,1,any,0
+173,,online,1,,0,male,0,42,36,44,175.26,160.02,172.72,average,any,2,0,,,divorced,2,bachelors degree,3,high school,1
+174,,online,1,,0,male,0,34,21,36,175.26,,,attractive,any,3,0,,,single,1,masters degree,4,any,0
+175,,online,1,,0,male,0,35,28,35,175.26,,,average,any,2,0,,,divorced,2,masters degree,4,any,0
+176,,online,1,,0,male,0,38,28,38,172.72,157.48,170.18,average,any,2,0,,,divorced,2,bachelors degree,3,any,0
+177,,online,1,,0,male,0,35,21,35,170.18,,,average,any,2,0,,,divorced,2,bachelors degree,3,any,0
+178,,online,1,,0,male,0,47,45,70,177.8,,,below average,any,1,0,,,separated,2,bachelors degree,3,any,0
+179,,online,1,,0,male,0,35,18,36,165.1,,,average,any,2,0,,,single,1,bachelors degree,3,any,0
+180,,online,1,,0,male,0,50,20,30,180.34,160.02,170.18,attractive,"very attractive, attractive",3,3,,,divorced,2,bachelors degree,3,vocational college,2
+181,,online,1,,0,male,0,30,19,33,175.26,,,attractive,any,3,0,,,single,1,masters degree,4,any,0
+182,,online,1,,0,male,0,28,19,32,165.1,,,attractive,any,3,0,,,single,1,high school,1,any,0
+183,,online,1,,0,male,0,26,23,31,170.18,154.94,180.34,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+184,,online,1,,0,male,0,35,20,35,175.26,149.86,175.26,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+185,,online,1,,0,male,0,29,18,32,165.1,,,average,any,2,0,,,single,1,bachelors degree,3,any,0
+186,,online,1,,0,male,0,32,25,35,172.72,154.94,175.26,average,any,2,0,,,divorced,2,bachelors degree,3,any,0
+187,,online,1,,0,male,0,21,18,25,172.72,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+188,,online,1,,0,male,0,32,19,32,172.72,,,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+189,,online,1,,0,male,0,50,30,45,175.26,154.94,175.26,below average,"attractive, average, below average",1,1,,,divorced,2,bachelors degree,3,bachelors degree,3
+190,,online,1,,0,male,0,28,19,30,,,,no answer,any,,0,,,single,1,no answer,0,any,0
+191,,online,1,,0,male,0,24,18,27,165.1,,,average,any,2,0,,,single,1,bachelors degree,3,any,0
+192,,online,1,,0,male,0,49,24,44,172.72,152.4,,average,average,2,2,,,single,1,bachelors degree,3,high school,1
+193,,online,1,,0,male,0,29,19,30,165.1,,,average,any,2,0,,,single,1,high school,1,any,0
+194,,online,1,,0,male,0,41,23,45,175.26,165.1,175.26,average,any,2,0,,,single,1,phd or doctorate,5,any,0
+195,,online,1,,0,male,0,29,19,32,175.26,,,below average,average,1,2,,,single,1,high school,1,high school,1
+196,,online,1,,0,male,0,38,18,36,180.34,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+197,,online,1,,0,male,0,27,19,30,,,,no answer,any,,0,,,single,1,no answer,0,any,0
+198,,online,1,,0,male,0,47,25,42,172.72,,,average,any,2,0,,,divorced,2,high school,1,any,0
+199,,online,1,,0,male,0,25,18,25,172.72,160.02,167.64,average,any,2,0,,,single,1,bachelors degree,3,any,0
+200,,online,1,,0,male,0,43,23,38,170.18,,,below average,any,1,0,,,single,1,vocational college,2,any,0
+201,,online,1,,0,male,0,33,20,32,170.18,,,attractive,attractive,3,3,,,single,1,bachelors degree,3,any,0
+202,,online,1,,0,male,0,34,20,33,180.34,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+203,,online,1,,0,male,0,25,18,35,170.18,,,average,any,2,0,,,single,1,vocational college,2,any,0
+204,,online,1,,0,male,0,32,20,33,172.72,157.48,170.18,below average,below average,1,1,,,single,1,bachelors degree,3,bachelors degree,3
+205,,online,1,,0,male,0,31,20,33,180.34,160.02,175.26,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+206,,online,1,,0,male,0,36,21,35,170.18,,,average,any,2,0,,,single,1,bachelors degree,3,any,0
+207,,online,1,,0,male,0,37,21,30,175.26,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+208,,online,1,,0,male,0,37,21,37,,,,no answer,any,,0,,,other,4,no answer,0,any,0
+209,,online,1,,0,male,0,32,20,33,175.26,162.56,167.64,attractive,attractive,3,3,,,separated,2,bachelors degree,3,any,0
+210,,online,1,,0,male,0,36,21,34,157.48,149.86,157.48,average,average,2,2,,,single,1,bachelors degree,3,any,0
+211,,online,1,,0,male,0,33,20,34,,,,no answer,any,,0,,,single,1,no answer,0,any,0
+212,,online,1,,0,male,0,43,24,40,160.02,,,below average,any,1,0,,,single,1,masters degree,4,any,0
+213,,online,1,,0,male,0,37,21,37,172.72,,,average,any,2,0,,,single,1,bachelors degree,3,any,0
+214,,online,1,,0,male,0,34,any,,177.8,160.02,175.26,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+215,,online,1,,0,male,0,42,25,35,175.26,154.94,,attractive,any,3,0,,,single,1,bachelors degree,3,vocational college,2
+216,,online,1,,0,male,0,40,22,37,180.34,154.94,175.26,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+217,,online,1,,0,male,0,41,30,40,,,,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+218,,online,1,,0,male,0,33,20,40,167.64,,,average,any,2,0,,,single,1,masters degree,4,any,0
+219,,online,1,,0,male,0,40,21,35,175.26,,,attractive,any,3,0,,,other,4,bachelors degree,3,any,0
+220,,online,1,,0,male,0,32,20,30,167.64,,,average,any,2,0,,,single,1,masters degree,4,any,0
+221,,online,1,,0,male,0,46,32,40,170.18,,,below average,any,1,0,,,divorced,2,high school,1,any,0
+222,,online,1,,0,male,0,42,23,38,,,,no answer,any,,0,,,single,1,no answer,0,any,0
+223,,online,1,,0,male,0,34,23,31,170.18,,,average,any,2,0,,,single,1,vocational college,2,any,0
+224,,online,1,,0,male,0,49,27,43,170.18,,,attractive,any,3,0,,,divorced,2,masters degree,4,any,0
+225,,online,1,,0,male,0,38,21,35,175.26,,,below average,any,1,0,,,separated,2,vocational college,2,any,0
+226,,online,1,,0,male,0,36,20,34,167.64,,,attractive,any,3,0,,,single,1,high school,1,any,0
+227,,online,1,,0,male,0,45,23,39,175.26,,,below average,any,1,0,,,separated,2,high school,1,any,0
+228,,online,1,,0,male,0,31,20,35,,,,no answer,any,,0,,,other,4,no answer,0,any,0
+229,,online,1,,0,male,0,30,19,31,205.74,,,below average,average,1,2,,,single,1,vocational college,2,any,0
+230,,online,1,,0,male,0,31,19,32,,,,no answer,any,,0,,,divorced,2,no answer,0,any,0
+231,,online,1,,0,male,0,33,19,26,167.64,,,below average,any,1,0,,,single,1,middle school / junior high,1,any,0
+232,,online,1,,0,male,0,25,18,22,170.18,,,average,average,2,2,,,single,1,high school,1,any,0
+233,,online,1,,0,male,0,28,19,31,185.42,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+234,,online,1,,0,male,0,26,19,28,175.26,,,below average,any,1,0,,,single,1,high school,1,any,0
+235,,online,1,,0,male,0,26,18,27,172.72,,,average,any,2,0,,,single,1,bachelors degree,3,any,0
+236,,online,1,,0,male,0,41,24,34,172.72,162.56,172.72,average,any,2,0,,,divorced,2,bachelors degree,3,any,0
+237,,online,1,,0,male,0,26,18,27,172.72,,,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+238,,online,1,,0,male,0,33,20,32,175.26,,,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+239,,online,1,,0,male,0,27,25,26,167.64,,,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+240,,online,1,,0,male,0,22,18,25,177.8,,,average,attractive,2,3,,,single,1,bachelors degree,3,bachelors degree,3
+241,,online,1,,0,male,0,33,25,40,172.72,154.94,170.18,average,any,2,0,,,single,1,high school,1,any,0
+242,,online,1,,0,male,0,25,18,35,182.88,,,average,any,2,0,,,single,1,masters degree,4,any,0
+243,,online,1,,0,male,0,31,25,30,170.18,,,average,any,2,0,,,single,1,bachelors degree,3,any,0
+244,,online,1,,0,male,0,35,21,35,177.8,,,average,any,2,0,,,single,1,bachelors degree,3,any,0
+245,,online,1,,0,male,0,36,18,24,167.64,165.1,185.42,attractive,"very attractive, attractive",3,3,,,separated,2,high school,1,any,0
+246,,online,1,,0,male,0,34,20,33,170.18,,,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+247,,online,1,,0,male,0,21,18,25,,,,very attractive,any,4,0,,,single,1,vocational college,2,any,0
+248,,online,1,,0,male,0,27,19,30,,,,no answer,any,,0,,,single,1,no answer,0,any,0
+249,,online,1,,0,male,0,35,21,35,187.96,,,attractive,any,3,0,,,single,1,masters degree,4,any,0
+250,,online,1,,0,male,0,30,19,31,,,,no answer,any,,0,,,single,1,no answer,0,any,0
+251,,online,1,,0,female,1,45,42,57,157.48,172.72,,below average,any,1,0,,,widowed,3,bachelors degree,3,bachelors degree,3
+252,,online,1,,0,female,1,43,36,56,165.1,172.72,,very attractive,any,4,0,,,single,1,bachelors degree,3,bachelors degree,3
+253,,online,1,,0,female,1,43,43,55,165.1,175.26,,attractive,any,3,0,,,divorced,2,high school,1,high school,1
+254,,online,1,,0,female,1,38,30,43,162.56,180.34,,very attractive,any,4,0,,,divorced,2,bachelors degree,3,bachelors degree,3
+255,,online,1,,0,female,1,49,50,60,154.94,165.1,180.34,very attractive,any,4,0,,,divorced,2,high school,1,vocational college,2
+256,,online,1,,0,female,1,42,40,55,154.94,172.72,180.34,attractive,any,3,0,,,single,1,bachelors degree,3,masters degree,4
+257,,online,1,,0,female,1,35,30,36,165.1,175.26,190.5,attractive,any,3,0,,,single,1,bachelors degree,3,bachelors degree,3
+258,,online,1,,0,female,1,48,42,58,167.64,180.34,,attractive,attractive,3,3,,,divorced,2,bachelors degree,3,bachelors degree,3
+259,,online,1,,0,female,1,40,36,49,160.02,,,very attractive,any,4,0,,,divorced,2,masters degree,4,bachelors degree,3
+260,,online,1,,0,female,1,50,47,70,157.48,170.18,185.42,attractive,attractive,3,3,,,divorced,2,bachelors degree,3,any,0
+261,,online,1,,0,female,1,48,42,60,165.1,170.18,187.96,attractive,any,3,0,,,single,1,masters degree,4,bachelors degree,3
+262,,online,1,,0,female,1,49,43,70,167.64,175.26,200.66,very attractive,"very attractive, attractive",4,3,,,divorced,2,bachelors degree,3,bachelors degree,3
+263,,online,1,,0,female,1,45,41,56,160.02,,,attractive,any,3,0,,,divorced,2,bachelors degree,3,bachelors degree,3
+264,,online,1,,0,female,1,29,25,40,149.86,170.18,190.5,average,below average,2,1,,,single,1,bachelors degree,3,bachelors degree,3
+265,,online,1,,0,female,1,46,44,60,160.02,,,very attractive,any,4,0,,,divorced,2,bachelors degree,3,bachelors degree,3
+266,,online,1,,0,female,1,48,30,53,165.1,172.72,,attractive,any,3,0,,,divorced,2,bachelors degree,3,bachelors degree,3
+267,,online,1,,0,female,1,47,45,60,154.94,149.86,182.88,below average,any,1,0,,,single,1,bachelors degree,3,bachelors degree,3
+268,,online,1,,0,female,1,33,31,50,167.64,,,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+269,,online,1,,0,female,1,37,33,48,157.48,,,attractive,any,3,0,,,single,1,masters degree,4,vocational college,2
+270,,online,1,,0,female,1,50,50,68,154.94,,,below average,any,1,0,,,divorced,2,bachelors degree,3,any,0
+271,,online,1,,0,female,1,38,42,55,162.56,170.18,195.58,attractive,any,3,0,,,single,1,masters degree,4,bachelors degree,3
+272,,online,1,,0,female,1,47,40,80,162.56,,,very attractive,any,4,0,,,divorced,2,bachelors degree,3,any,0
+273,,online,1,,0,female,1,48,44,65,154.94,165.1,185.42,attractive,"attractive, below average",3,3,,,widowed,3,high school,1,bachelors degree,3
+274,,online,1,,0,female,1,50,51,65,157.48,,,attractive,below average,3,1,,,single,1,vocational college,2,any,0
+275,,online,1,,0,female,1,41,35,48,160.02,175.26,,attractive,any,3,0,,,divorced,2,bachelors degree,3,bachelors degree,3
+276,,online,1,,0,female,1,49,45,55,154.94,,,below average,below average,1,1,,,divorced,2,bachelors degree,3,bachelors degree,3
+277,,online,1,,0,female,1,32,28,40,160.02,,,attractive,any,3,0,,,single,1,bachelors degree,3,bachelors degree,3
+278,,online,1,,0,female,1,42,45,55,165.1,175.26,200.66,very attractive,attractive,4,3,,,divorced,2,bachelors degree,3,vocational college,2
+279,,online,1,,0,female,1,39,37,53,157.48,,,attractive,any,3,0,,,divorced,2,bachelors degree,3,bachelors degree,3
+280,,online,1,,0,female,1,44,40,55,167.64,175.26,185.42,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+281,,online,1,,0,female,1,36,33,50,165.1,,,attractive,any,3,0,,,divorced,2,vocational college,2,any,0
+282,,online,1,,0,female,1,41,38,50,165.1,,,average,any,2,0,,,single,1,masters degree,4,any,0
+283,,online,1,,0,female,1,28,26,43,165.1,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+284,,online,1,,0,female,1,42,41,52,165.1,167.64,190.5,below average,any,1,0,,,single,1,masters degree,4,bachelors degree,3
+285,,online,1,,0,female,1,49,60,72,152.4,,180.34,average,any,2,0,,,divorced,2,vocational college,2,any,0
+286,,online,1,,0,female,1,47,47,57,157.48,170.18,185.42,attractive,"very attractive, attractive",3,3,,,divorced,2,bachelors degree,3,bachelors degree,3
+287,,online,1,,0,female,1,49,46,60,160.02,,,attractive,any,3,0,,,divorced,2,bachelors degree,3,masters degree,4
+288,,online,1,,0,female,1,46,42,65,170.18,170.18,,attractive,any,3,0,,,divorced,2,high school,1,any,0
+289,,online,1,,0,female,1,46,40,58,160.02,167.64,182.88,attractive,any,3,0,,,divorced,2,bachelors degree,3,bachelors degree,3
+290,,online,1,,0,female,1,47,38,52,154.94,167.64,180.34,attractive,any,3,0,,,single,1,phd or doctorate,5,bachelors degree,3
+291,,online,1,,0,female,1,19,18,23,160.02,177.8,187.96,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+292,,online,1,,0,female,1,42,37,50,165.1,,,average,any,2,0,,,divorced,2,high school,1,any,0
+293,,online,1,,0,female,1,42,40,52,160.02,165.1,185.42,attractive,any,3,0,,,single,1,masters degree,4,any,0
+294,,online,1,,0,female,1,33,33,47,160.02,175.26,185.42,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+295,,online,1,,0,female,1,40,38,51,157.48,,,attractive,any,3,0,,,divorced,2,vocational college,2,bachelors degree,3
+296,,online,1,,0,female,1,31,28,38,154.94,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+297,,online,1,,0,female,1,48,38,65,157.48,167.64,190.5,attractive,any,3,0,,,divorced,2,bachelors degree,3,bachelors degree,3
+298,,online,1,,0,female,1,31,32,38,160.02,170.18,,average,any,2,0,,,single,1,bachelors degree,3,any,0
+299,,online,1,,0,female,1,48,46,65,162.56,167.64,,attractive,any,3,0,,,divorced,2,bachelors degree,3,vocational college,2
+300,,online,1,,0,female,1,29,32,40,165.1,175.26,177.8,attractive,average,3,2,,,single,1,bachelors degree,3,bachelors degree,3
+301,,online,1,,0,female,1,32,33,45,160.02,,,attractive,any,3,0,,,single,1,bachelors degree,3,bachelors degree,3
+302,,online,1,,0,female,1,35,30,43,162.56,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+303,,online,1,,0,female,1,42,40,55,154.94,,,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+304,,online,1,,0,female,1,27,19,37,162.56,,,average,any,2,0,,,single,1,bachelors degree,3,any,0
+305,,online,1,,0,female,1,35,40,48,165.1,170.18,180.34,below average,below average,1,1,,,divorced,2,bachelors degree,3,bachelors degree,3
+306,,online,1,,0,female,1,30,35,45,157.48,175.26,185.42,below average,"average, below average",1,2,,,single,1,vocational college,2,bachelors degree,3
+307,,online,1,,0,female,1,28,28,38,167.64,,,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+308,,online,1,,0,female,1,31,29,45,165.1,177.8,193.04,very attractive,very attractive,4,3,,,single,1,masters degree,4,any,0
+309,,online,1,,0,female,1,39,33,48,154.94,167.64,182.88,attractive,any,3,0,,,single,1,masters degree,4,vocational college,2
+310,,online,1,,0,female,1,22,22,32,160.02,,,average,any,2,0,,,single,1,bachelors degree,3,bachelors degree,3
+311,,online,1,,0,female,1,49,40,59,154.94,,,very attractive,any,4,0,,,divorced,2,vocational college,2,any,0
+312,,online,1,,0,female,1,42,38,50,167.64,,,very attractive,any,4,0,,,divorced,2,bachelors degree,3,any,0
+313,,online,1,,0,female,1,42,42,60,157.48,170.18,,attractive,any,3,0,,,divorced,2,high school,1,vocational college,2
+314,,online,1,,0,female,1,34,34,40,160.02,170.18,180.34,average,"attractive, average, below average",2,1,,,single,1,bachelors degree,3,bachelors degree,3
+315,,online,1,,0,female,1,49,44,60,157.48,,,very attractive,any,4,0,,,divorced,2,bachelors degree,3,any,0
+316,,online,1,,0,female,1,40,48,50,162.56,180.34,180.34,very attractive,any,4,0,,,divorced,2,bachelors degree,3,any,0
+317,,online,1,,0,female,1,30,28,46,,177.8,185.42,attractive,attractive,3,3,,,other,4,bachelors degree,3,bachelors degree,3
+318,,online,1,,0,female,1,46,41,56,149.86,165.1,175.26,average,any,2,0,,,divorced,2,bachelors degree,3,bachelors degree,3
+319,,online,1,,0,female,1,31,26,45,160.02,,,attractive,any,3,0,,,single,1,masters degree,4,bachelors degree,3
+320,,online,1,,0,female,1,44,45,55,170.18,175.26,190.5,attractive,attractive,3,3,,,divorced,2,bachelors degree,3,any,0
+321,,online,1,,0,female,1,38,39,52,160.02,170.18,185.42,very attractive,any,4,0,,,divorced,2,bachelors degree,3,bachelors degree,3
+322,,online,1,,0,female,1,47,49,60,165.1,175.26,,very attractive,any,4,0,,,divorced,2,bachelors degree,3,bachelors degree,3
+323,,online,1,,0,female,1,48,44,59,162.56,,,attractive,any,3,0,,,divorced,2,masters degree,4,vocational college,2
+324,,online,1,,0,female,1,43,44,60,154.94,170.18,180.34,average,any,2,0,,,divorced,2,bachelors degree,3,bachelors degree,3
+325,,online,1,,0,female,1,49,45,60,154.94,170.18,190.5,attractive,any,3,0,,,divorced,2,bachelors degree,3,vocational college,2
+326,,online,1,,0,female,1,34,27,44,170.18,167.64,,very attractive,any,4,0,,,divorced,2,bachelors degree,3,vocational college,2
+327,,online,1,,0,female,1,30,28,46,165.1,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+328,,online,1,,0,female,1,44,40,60,162.56,,,below average,any,1,0,,,widowed,3,bachelors degree,3,bachelors degree,3
+329,,online,1,,0,female,1,28,28,42,162.56,,,attractive,any,3,0,,,single,1,bachelors degree,3,bachelors degree,3
+330,,online,1,,0,female,1,35,34,43,154.94,,,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+331,,online,1,,0,female,1,37,37,42,172.72,180.34,182.88,average,below average,2,1,,,divorced,2,bachelors degree,3,any,0
+332,,online,1,,0,female,1,44,36,49,160.02,,,average,any,2,0,,,single,1,bachelors degree,3,any,0
+333,,online,1,,0,female,1,36,33,50,160.02,,,average,any,2,0,,,divorced,2,phd or doctorate,5,any,0
+334,,online,1,,0,female,1,34,35,52,162.56,,,average,any,2,0,,,single,1,bachelors degree,3,any,0
+335,,online,1,,0,female,1,49,56,68,165.1,177.8,198.12,attractive,any,3,0,,,divorced,2,masters degree,4,bachelors degree,3
+336,,online,1,,0,female,1,40,40,43,157.48,170.18,175.26,below average,average,1,2,,,divorced,2,bachelors degree,3,any,0
+337,,online,1,,0,female,1,49,49,59,162.56,,,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+338,,online,1,,0,female,1,44,41,55,160.02,170.18,,attractive,any,3,0,,,divorced,2,bachelors degree,3,bachelors degree,3
+339,,online,1,,0,female,1,49,44,58,162.56,,,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+340,,online,1,,0,female,1,38,30,47,165.1,175.26,185.42,average,any,2,0,,,single,1,bachelors degree,3,vocational college,2
+341,,online,1,,0,female,1,45,45,56,162.56,175.26,185.42,attractive,any,3,0,,,divorced,2,bachelors degree,3,bachelors degree,3
+342,,online,1,,0,female,1,42,37,53,165.1,,,attractive,any,3,0,,,divorced,2,high school,1,any,0
+343,,online,1,,0,female,1,47,40,57,160.02,172.72,,very attractive,below average,4,1,,,divorced,2,bachelors degree,3,bachelors degree,3
+344,,online,1,,0,female,1,32,28,46,157.48,172.72,198.12,attractive,any,3,0,,,single,1,bachelors degree,3,bachelors degree,3
+345,,online,1,,0,female,1,34,36,45,160.02,,,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+346,,online,1,,0,female,1,33,29,42,162.56,172.72,,attractive,any,3,0,,,single,1,bachelors degree,3,bachelors degree,3
+347,,online,1,,0,female,1,39,40,57,170.18,172.72,,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+348,,online,1,,0,female,1,49,41,52,162.56,,,attractive,any,3,0,,,divorced,2,bachelors degree,3,bachelors degree,3
+349,,online,1,,0,female,1,47,35,60,160.02,170.18,,very attractive,any,4,0,,,divorced,2,bachelors degree,3,vocational college,2
+350,,online,1,,0,female,1,50,48,60,165.1,,,attractive,any,3,0,,,divorced,2,vocational college,2,any,0
+351,,online,1,,0,female,1,39,40,50,154.94,175.26,185.42,attractive,any,3,0,,,divorced,2,bachelors degree,3,bachelors degree,3
+352,,online,1,,0,female,1,37,30,48,157.48,175.26,185.42,very attractive,"very attractive, attractive, average",4,2,,,single,1,bachelors degree,3,bachelors degree,3
+353,,online,1,,0,female,1,45,45,60,162.56,175.26,,attractive,any,3,0,,,divorced,2,vocational college,2,any,0
+354,,online,1,,0,female,1,48,46,65,165.1,172.72,,attractive,any,3,0,,,single,1,bachelors degree,3,vocational college,2
+355,,online,1,,0,female,1,34,33,45,162.56,,,attractive,"very attractive, attractive, average",3,2,,,single,1,bachelors degree,3,any,0
+356,,online,1,,0,female,1,46,40,58,160.02,167.64,182.88,attractive,any,3,0,,,divorced,2,bachelors degree,3,bachelors degree,3
+357,,online,1,,0,female,1,38,39,52,160.02,170.18,185.42,very attractive,any,4,0,,,divorced,2,bachelors degree,3,bachelors degree,3
+358,,online,1,,0,female,1,47,47,59,160.02,167.64,187.96,below average,below average,1,1,,,divorced,2,high school,1,bachelors degree,3
+359,,online,1,,0,female,1,38,40,58,160.02,165.1,175.26,below average,any,1,0,,,divorced,2,vocational college,2,middle school / junior high,1
+360,,online,1,,0,female,1,35,40,48,165.1,170.18,180.34,below average,below average,1,1,,,divorced,2,bachelors degree,3,bachelors degree,3
+361,,online,1,,0,female,1,39,33,48,154.94,167.64,182.88,attractive,any,3,0,,,single,1,masters degree,4,vocational college,2
+362,,online,1,,0,female,1,49,40,59,154.94,,,very attractive,any,4,0,,,divorced,2,vocational college,2,any,0
+363,,online,1,,0,female,1,42,38,50,167.64,,,very attractive,any,4,0,,,divorced,2,bachelors degree,3,any,0
+364,,online,1,,0,female,1,31,26,45,160.02,,,attractive,any,3,0,,,single,1,masters degree,4,bachelors degree,3
+365,,online,1,,0,female,1,40,40,43,157.48,170.18,175.26,below average,average,1,2,,,divorced,2,bachelors degree,3,any,0
+366,,online,1,,0,female,1,47,40,57,160.02,172.72,,very attractive,below average,4,1,,,divorced,2,bachelors degree,3,bachelors degree,3
+367,,online,1,,0,female,1,43,45,56,157.48,,,average,any,2,0,,,separated,2,high school,1,any,0
+368,,online,1,,0,female,1,30,28,45,160.02,,,average,any,2,0,,,single,1,vocational college,2,any,0
+369,,online,1,,0,female,1,47,43,58,160.02,170.18,,attractive,below average,3,1,,,single,1,vocational college,2,bachelors degree,3
+370,,online,1,,0,female,1,49,49, no answer,160.02,165.1,,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+371,,online,1,,0,female,1,49,49,62,160.02,,,attractive,below average,3,1,,,divorced,2,bachelors degree,3,any,0
+372,,online,1,,0,female,1,50,40,65,160.02,,,very attractive,any,4,0,,,divorced,2,bachelors degree,3,any,0
+373,,online,1,,0,female,1,28,25,40,167.64,172.72,,very attractive,any,4,0,,,single,1,masters degree,4,vocational college,2
+374,,online,1,,0,female,1,34,33,52,149.86,,,attractive,any,3,0,,,no answer,,masters degree,4,bachelors degree,3
+375,,online,1,,0,female,1,24,23,37,165.1,,,average,any,2,0,,,single,1,bachelors degree,3,any,0
+376,,online,1,,0,female,1,39,35,50,160.02,,,below average,any,1,0,,,single,1,vocational college,2,any,0
+377,,online,1,,0,female,1,25,28,40,165.1,175.26,190.5,average,attractive,2,3,,,single,1,bachelors degree,3,any,0
+378,,online,1,,0,female,1,40,37,51,162.56,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+379,,online,1,,0,female,1,49,45,60,154.94,170.18,190.5,attractive,any,3,0,,,divorced,2,bachelors degree,3,vocational college,2
+380,,online,1,,0,female,1,49,45,58,160.02,175.26,,very attractive,any,4,0,,,divorced,2,bachelors degree,3,any,0
+381,,online,1,,0,female,1,47,45,60,157.48,160.02,190.5,attractive,any,3,0,,,divorced,2,masters degree,4,masters degree,4
+382,,online,1,,0,female,1,40,36,51,165.1,,,below average,any,1,0,,,divorced,2,bachelors degree,3,any,0
+383,,online,1,,0,female,1,46,40,60,165.1,,,very attractive,any,4,0,,,divorced,2,middle school / junior high,1,any,0
+384,,online,1,,0,female,1,41,37,51,165.1,,,very attractive,any,4,0,,,single,1,bachelors degree,3,any,0
+385,,online,1,,0,female,1,49,40,65,160.02,175.26,190.5,attractive,"very attractive, attractive, average",3,2,,,single,1,bachelors degree,3,vocational college,2
+386,,online,1,,0,female,1,49,47,61,162.56,,,attractive,"very attractive, attractive, average",3,2,,,single,1,bachelors degree,3,any,0
+387,,online,1,,0,female,1,30,22,38,165.1,,,very attractive,any,4,0,,,single,1,bachelors degree,3,any,0
+388,,online,1,,0,female,1,50,40,55,157.48,,,very attractive,very attractive,4,3,,,divorced,2,vocational college,2,phd or doctorate,5
+389,,online,1,,0,female,1,50,50,61,160.02,,185.42,very attractive,"average, below average",4,2,,,divorced,2,bachelors degree,3,vocational college,2
+390,,online,1,,0,female,1,48,45,58,165.1,177.8,185.42,attractive,attractive,3,3,,,divorced,2,bachelors degree,3,bachelors degree,3
+391,,online,1,,0,female,1,34,34,51,165.1,167.64,200.66,very attractive,any,4,0,,,divorced,2,bachelors degree,3,vocational college,2
+392,,online,1,,0,female,1,31,28,46,160.02,,,average,any,2,0,,,separated,2,high school,1,any,0
+393,,online,1,,0,female,1,38,35,52,157.48,,,attractive,any,3,0,,,single,1,bachelors degree,3,bachelors degree,3
+394,,online,1,,0,female,1,32,23,45,162.56,170.18,,below average,any,1,0,,,single,1,vocational college,2,any,0
+395,,online,1,,0,female,1,49,48,68,154.94,170.18,185.42,attractive,"very attractive, attractive, average",3,2,,,divorced,2,bachelors degree,3,bachelors degree,3
+396,,online,1,,0,female,1,43,39,54,154.94,170.18,,attractive,any,3,0,,,divorced,2,masters degree,4,bachelors degree,3
+397,,online,1,,0,female,1,48,40,59,160.02,170.18,180.34,attractive,any,3,0,,,divorced,2,bachelors degree,3,bachelors degree,3
+398,,online,1,,0,female,1,47,42,60,160.02,170.18,175.26,below average,below average,1,1,,,divorced,2,bachelors degree,3,bachelors degree,3
+399,,online,1,,0,female,1,31,29,40,,172.72,,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+400,,online,1,,0,female,1,42,35,56,154.94,165.1,200.66,attractive,below average,3,1,,,widowed,3,masters degree,4,bachelors degree,3
+401,,online,1,,0,female,1,45,40,56,154.94,170.18,180.34,very attractive,any,4,0,,,divorced,2,masters degree,4,any,0
+402,,online,1,,0,female,1,33,28,42,160.02,,,attractive,any,3,0,,,single,1,bachelors degree,3,bachelors degree,3
+403,,online,1,,0,female,1,41,43,58,154.94,165.1,180.34,attractive,"very attractive, attractive",3,3,,,widowed,3,bachelors degree,3,bachelors degree,3
+404,,online,1,,0,female,1,26,30,50,160.02,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+405,,online,1,,0,female,1,46,39,55,160.02,175.26,187.96,attractive,any,3,0,,,divorced,2,bachelors degree,3,bachelors degree,3
+406,,online,1,,0,female,1,49,51,72,154.94,,,attractive,"attractive, average",3,2,,,divorced,2,vocational college,2,high school,1
+407,,online,1,,0,female,1,48,49,62,160.02,167.64,185.42,average,any,2,0,,,divorced,2,vocational college,2,vocational college,2
+408,,online,1,,0,female,1,47,46,56,167.64,,,very attractive,any,4,0,,,divorced,2,bachelors degree,3,any,0
+409,,online,1,,0,female,1,33,32,44,160.02,177.8,182.88,below average,any,1,0,,,single,1,high school,1,any,0
+410,,online,1,,0,female,1,45,50,65,157.48,170.18,198.12,attractive,below average,3,1,,,divorced,2,bachelors degree,3,any,0
+411,,online,1,,0,female,1,50,47,60,152.4,,,below average,any,1,0,,,divorced,2,masters degree,4,any,0
+412,,online,1,,0,female,1,39,40,60,165.1,167.64,,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+413,,online,1,,0,female,1,50,46,60,154.94,,,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+414,,online,1,,0,female,1,34,35,50,160.02,170.18,185.42,attractive,any,3,0,,,divorced,2,bachelors degree,3,bachelors degree,3
+415,,online,1,,0,female,1,30,25,33,152.4,172.72,,below average,average,1,2,,,single,1,vocational college,2,bachelors degree,3
+416,,online,1,,0,female,1,49,44,59,162.56,172.72,185.42,very attractive,attractive,4,3,,,divorced,2,vocational college,2,bachelors degree,3
+417,,online,1,,0,female,1,48,47,58,160.02,167.64,180.34,very attractive,any,4,0,,,divorced,2,bachelors degree,3,vocational college,2
+418,,online,1,,0,female,1,45,40,56,162.56,,,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+419,,online,1,,0,female,1,44,45,56,165.1,172.72,180.34,attractive,"attractive, below average",3,1,,,widowed,3,bachelors degree,3,bachelors degree,3
+420,,online,1,,0,female,1,40,37,52,162.56,175.26,190.5,attractive,below average,3,1,,,single,1,bachelors degree,3,bachelors degree,3
+421,,online,1,,0,female,1,46,47,60,162.56,180.34,185.42,attractive,attractive,3,3,,,divorced,2,bachelors degree,3,masters degree,4
+422,,online,1,,0,female,1,32,30,50,165.1,175.26,190.5,attractive,any,3,0,,,single,1,bachelors degree,3,masters degree,4
+423,,online,1,,0,female,1,36,33,50,165.1,,,very attractive,any,4,0,,,divorced,2,high school,1,any,0
+424,,online,1,,0,female,1,50,50,70,160.02,175.26,,attractive,any,3,0,,,divorced,2,bachelors degree,3,vocational college,2
+425,,online,1,,0,female,1,36,34,55,152.4,,,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+426,,online,1,,0,female,1,27,28,40,154.94,180.34,200.66,below average,any,1,0,,,separated,2,vocational college,2,any,0
+427,,online,1,,0,female,1,47,42,56,160.02,170.18,180.34,average,"attractive, average, below average",2,1,,,divorced,2,vocational college,2,bachelors degree,3
+428,,online,1,,0,female,1,41,38,50,160.02,,,attractive,any,3,0,,,divorced,2,vocational college,2,any,0
+429,,online,1,,0,female,1,31,36,46,162.56,165.1,190.5,very attractive,any,4,0,,,divorced,2,vocational college,2,any,0
+430,,online,1,,0,female,1,49,45,61,160.02,170.18,180.34,attractive,any,3,0,,,widowed,3,bachelors degree,3,bachelors degree,3
+431,,online,1,,0,female,1,34,35,43,160.02,177.8,185.42,attractive,average,3,2,,,divorced,2,bachelors degree,3,bachelors degree,3
+432,,online,1,,0,female,1,50,44,60,154.94,167.64,180.34,attractive,below average,3,1,,,divorced,2,vocational college,2,vocational college,2
+433,,online,1,,0,female,1,43,40,58,160.02,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+434,,online,1,,0,female,1,46,42,55,157.48,170.18,190.5,very attractive,any,4,0,,,divorced,2,vocational college,2,bachelors degree,3
+435,,online,1,,0,female,1,45,45,59,157.48,170.18,,very attractive,any,4,0,,,single,1,bachelors degree,3,any,0
+436,,online,1,,0,female,1,30,28,35,165.1,175.26,187.96,attractive,any,3,0,,,single,1,masters degree,4,masters degree,4
+437,,online,1,,0,female,1,33,29,40,154.94,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+438,,online,1,,0,female,1,34,34,38,165.1,175.26,185.42,attractive,attractive,3,3,,,single,1,bachelors degree,3,bachelors degree,3
+439,,online,1,,0,female,1,47,43,58,160.02,,,attractive,any,3,0,,,widowed,3,bachelors degree,3,any,0
+440,,online,1,,0,female,1,23,25,36,162.56,,,average,any,2,0,,,single,1,vocational college,2,any,0
+441,,online,1,,0,female,1,38,35,51,167.64,,,attractive,any,3,0,,,single,1,bachelors degree,3,bachelors degree,3
+442,,online,1,,0,female,1,49,50,66,160.02,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+443,,online,1,,0,female,1,35,33,55,160.02,167.64,185.42,attractive,average,3,2,,,widowed,3,masters degree,4,bachelors degree,3
+444,,online,1,,0,female,1,40,36,50,157.48,175.26,182.88,attractive,any,3,0,,,single,1,bachelors degree,3,bachelors degree,3
+445,,online,1,,0,female,1,45,45,62,160.02,172.72,185.42,attractive,below average,3,1,,,single,1,bachelors degree,3,bachelors degree,3
+446,,online,1,,0,female,1,48,47,60,160.02,170.18,185.42,average,any,2,0,,,divorced,2,bachelors degree,3,vocational college,2
+447,,online,1,,0,female,1,34,32,45,160.02,170.18,190.5,very attractive,any,4,0,,,single,1,bachelors degree,3,any,0
+448,,online,1,,0,female,1,48,44,59,154.94,,,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+449,,online,1,,0,female,1,29,30,40,165.1,175.26,187.96,attractive,attractive,3,3,,,single,1,bachelors degree,3,any,0
+450,,online,1,,0,female,1,27,25,50,165.1,154.94,195.58,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+451,,online,1,,0,female,1,25,25,38,170.18,,,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+452,,online,1,,0,female,1,45,40,56,165.1,172.72,185.42,attractive,"very attractive, attractive, average",3,2,,,divorced,2,high school,1,bachelors degree,3
+453,,online,1,,0,female,1,35,35,46,157.48,172.72,187.96,attractive,any,3,0,,,divorced,2,bachelors degree,3,vocational college,2
+454,,online,1,,0,female,1,36,35,55,157.48,170.18,,attractive,any,3,0,,,single,1,masters degree,4,,0
+455,,online,1,,0,female,1,47,43,50,162.56,,,attractive,any,3,0,,,divorced,2,high school,1,bachelors degree,3
+456,,online,1,,0,female,1,37,34,50,165.1,,,very attractive,any,4,0,,,widowed,3,masters degree,4,bachelors degree,3
+457,,online,1,,0,female,1,50,47,55,152.4,170.18,175.26,below average,below average,1,1,,,single,1,bachelors degree,3,bachelors degree,3
+458,,online,1,,0,female,1,35,34,54,160.02,,,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+459,,online,1,,0,female,1,26,24,41,165.1,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+460,,online,1,,0,female,1,47,44,59,160.02,,,very attractive,any,4,0,,,divorced,2,vocational college,2,vocational college,2
+461,,online,1,,0,female,1,41,30,51,160.02,,,attractive,average,3,2,,,single,1,bachelors degree,3,masters degree,4
+462,,online,1,,0,female,1,44,37,58,157.48,167.64,,attractive,any,3,0,,,single,1,vocational college,2,any,0
+463,,online,1,,0,female,1,29,28,40,154.94,,,average,any,2,0,,,single,1,vocational college,2,any,0
+464,,online,1,,0,female,1,36,33,39,160.02,170.18,177.8,attractive,attractive,3,3,,,single,1,masters degree,4,bachelors degree,3
+465,,online,1,,0,female,1,40,37,52,162.56,,,very attractive,any,4,0,,,divorced,2,bachelors degree,3,any,0
+466,,online,1,,0,female,1,46,47,60,160.02,175.26,185.42,attractive,any,3,0,,,single,1,vocational college,2,bachelors degree,3
+467,,online,1,,0,female,1,39,44,52,157.48,,,average,any,2,0,,,divorced,2,bachelors degree,3,bachelors degree,3
+468,,online,1,,0,female,1,26,25,46,160.02,160.02,190.5,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+469,,online,1,,0,female,1,30,28,46,167.64,,,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+470,,online,1,,0,female,1,41,40,60,162.56,175.26,190.5,attractive,"very attractive, attractive, average",3,2,,,divorced,2,bachelors degree,3,vocational college,2
+471,,online,1,,0,female,1,45,30,55,154.94,,,below average,any,1,0,,,divorced,2,vocational college,2,any,0
+472,,online,1,,0,female,1,50,46,62,160.02,172.72,182.88,attractive,any,3,0,,,divorced,2,vocational college,2,bachelors degree,3
+473,,online,1,,0,female,1,29,28,45,162.56,170.18,190.5,below average,below average,1,1,,,single,1,bachelors degree,3,bachelors degree,3
+474,,online,1,,0,female,1,33,32,40,160.02,170.18,187.96,attractive,any,3,0,,,single,1,vocational college,2,vocational college,2
+475,,online,1,,0,female,1,45,40,55,157.48,,,attractive,any,3,0,,,single,1,bachelors degree,3,vocational college,2
+476,,online,1,,0,female,1,39,35,48,162.56,175.26,185.42,very attractive,any,4,0,,,single,1,bachelors degree,3,bachelors degree,3
+477,,online,1,,0,female,1,37,32,41,160.02,172.72,182.88,attractive,below average,3,1,,,single,1,bachelors degree,3,bachelors degree,3
+478,,online,1,,0,female,1,29,24,28,160.02,167.64,185.42,below average,any,1,0,,,single,1,bachelors degree,3,bachelors degree,3
+479,,online,1,,0,female,1,37,30,45,160.02,,,no answer,any,,0,,,divorced,2,vocational college,2,any,0
+480,,online,1,,0,female,1,29,28,43,160.02,,,very attractive,any,4,0,,,single,1,bachelors degree,3,any,0
+481,,online,1,,0,female,1,38,36,50,162.56,175.26,,below average,any,1,0,,,divorced,2,high school,1,any,0
+482,,online,1,,0,female,1,38,40,46,162.56,170.18,,average,any,2,0,,,single,1,bachelors degree,3,any,0
+483,,online,1,,0,female,1,28,26,36,160.02,175.26,190.5,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+484,,online,1,,0,female,1,30,28,46,167.64,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+485,,online,1,,0,female,1,26,24,36,152.4,170.18,187.96,attractive,any,3,0,,,single,1,phd or doctorate,5,bachelors degree,3
+486,,online,1,,0,female,1,32,27,40,165.1,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+487,,online,1,,0,female,1,44,41,55,160.02,170.18,190.5,average,any,2,0,,,divorced,2,bachelors degree,3,any,0
+488,,online,1,,0,female,1,30,28,46,167.64,,,attractive,any,3,0,,,divorced,2,bachelors degree,3,any,0
+489,,online,1,,0,female,1,26,24,36,160.02,,,attractive,attractive,3,3,,,single,1,masters degree,4,bachelors degree,3
+490,,online,1,,0,female,1,26,24,41,162.56,,,below average,any,1,0,,,single,1,bachelors degree,3,any,0
+491,,online,1,,0,female,1,22,20,31,165.1,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+492,,online,1,,0,female,1,26,30,40,160.02,175.26,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+493,,online,1,,0,female,1,29,24,36,160.02,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+494,,online,1,,0,female,1,28,26,42,172.72,,,attractive,any,3,0,,,single,1,bachelors degree,3,any,0
+495,,online,1,,0,female,1,45,46,60,160.02,,,attractive,any,3,0,,,divorced,2,vocational college,2,any,0
+496,,online,1,,0,female,1,25,28,47,157.48,162.56,198.12,average,any,2,0,,,single,1,bachelors degree,3,bachelors degree,3
+497,,online,1,,0,female,1,42,42,65,162.56,167.64,,very attractive,any,4,0,,,divorced,2,high school,1,vocational college,2
+498,,online,1,,0,female,1,47,43,73,157.48,,,average,any,2,0,,,divorced,2,vocational college,2,any,0
+499,,online,1,,0,female,1,45,45,60,157.48,170.18,185.42,attractive,average,3,2,,,divorced,2,vocational college,2,any,0
+500,,online,1,,0,female,1,36,33,45,165.1,175.26,190.5,attractive,attractive,3,3,,,divorced,2,bachelors degree,3,bachelors degree,3
+501,4709,offline,0,,0,female,1,30,,38,163,172,,,,,,0,0,divorced,2,bachelors degree,3,bachelors degree,3
+502,0821,offline,0,,0,female,1,30,,35,161,170,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+503,3026,offline,0,yes,1,female,1,40,,,167,,,good,,,,1,0,single,1,bachelors degree,3,,0
+504,7684,offline,0,yes,1,female,1,30,,,166,175,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+505,8169,offline,0,yes,1,female,1,29,,29,158,170,,,,,,0,0,single,1,masters degree,4,masters degree,4
+506,7665,offline,0,yes,1,female,1,39,,39,163,170,,good,,,,1,0,single,1,bachelors degree,3,bachelors degree,3
+508,9859,offline,0,,0,male,0,31,26,27,170,160,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+509,9268,offline,0,yes,1,female,1,34,31,39,165,174,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+510,6064,offline,0,,0,female,1,49,,,163,166,,good,,,,1,0,divorced,2,high school,1,high school,1
+511,9534,offline,0,,0,male,0,47,,79,170,,,,,,,0,0,divorced,2,vocational,2,,0
+512,3859,offline,0,yes,1,male,0,29,,29,184,160,,,,,,0,0,single,1,bachelors degree,3,,0
+513,6437,offline,0,,0,female,1,47,,53,157,170,,good,good,,,1,1,divorced,2,,0,,0
+514,6285,offline,0,yes,1,female,1,30,30,36,164,170,,good,,,,1,0,single,1,masters degree,4,bachelors degree,3
+515,6666,offline,0,yes,1,female,1,30,,,160,,,good,,,,1,0,single,1,bachelors degree,3,,0
+516,7885,offline,0,,0,female,1,31,30,36,163,173,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+517,93872,offline,0,yes,1,female,1,31,29,33,162,175,,good,good,,,1,1,single,1,masters degree,4,bachelors degree,3
+519,9038,offline,0,yes,1,female,1,33,,39,160,170,,,good,,,0,1,single,1,bachelors degree,3,bachelors degree,3
+520,8378,offline,0,,0,female,1,34,,34,165,173,,good,good,,,1,1,single,1,masters degree,4,bachelors degree,3
+521,3068,offline,0,yes,1,female,1,36,37,43,170,174,,good,,,,1,0,single,1,bachelors degree,3,masters degree,4
+522,3243,offline,0,yes,1,female,1,30,30,34,168,175,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+523,1596,offline,0,yes,1,female,1,30,,35,162,170,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+525,6826,offline,0,yes,1,female,1,26,26,31,162,175,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+526,6369,offline,0,,0,male,0,45,,36,170,160,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+527,5319,offline,0,yes,1,female,1,29,21,37,160,172,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+528,6523,offline,0,yes,1,female,1,38,38,43,161,,,,,,,0,0,single,1,bachelors degree,3,,0
+529,2075,offline,0,yes,1,female,1,39,,44,160,,,,,,,0,0,single,1,bachelors degree,3,,0
+530,5658,offline,0,,0,male,0,39,29,35,175,,,good,good,,,1,1,single,1,,0,,0
+531,5025,offline,0,yes,1,female,1,25,25,30,166,172,180,,good,,,0,1,single,1,high school,1,,0
+533,6189,offline,0,yes,1,female,1,41,,45,165,,,,,,,0,0,,,phd,5,,0
+534,4375,offline,0,,0,male,0,41,,40,165,,,,,,,0,0,single,1,,0,,0
+535,0348,offline,0,,0,male,0,39,,,172,,,good,,,,1,0,single,1,bachelors degree,3,,0
+537,2872,offline,0,,0,male,0,33,,29,180,163,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+538,6555,offline,0,yes,1,female,1,29,,29,160,170,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+539,9307,offline,0,yes,1,female,1,29,29,35,158,170,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+540,5869,offline,0,yes,1,female,1,28,28,32,160,170,,,good,,,0,1,single,1,bachelors degree,3,bachelors degree,3
+541,4403,offline,0,yes,1,female,1,27,,33,163,175,,good,,,,1,0,single,1,bachelors degree,3,bachelors degree,3
+542,1199,offline,0,yes,1,female,1,31,,36,163,170,,,good,,,0,1,single,1,bachelors degree,3,bachelors degree,3
+543,2278,offline,0,yes,1,male,0,27,,26,174,160,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+544,6876,offline,0,yes,1,male,0,38,,33,178,160,167,,,,,0,0,single,1,masters degree,4,,0
+545,1108,offline,0,yes,1,female,1,33,33,41,157,165,,,,,,0,0,single,1,high school,1,,0
+546,5917,offline,0,yes,1,male,0,33,,29,171,158,,,,,,0,0,single,1,bachelors degree,3,,0
+547,2729,offline,0,,0,female,1,56,55,65,165,175,,,,,,0,0,divorced,2,,0,,0
+548,8352,offline,0,,0,female,1,62,,72,160,,,good,good,,,1,1,widowed,3,,0,,0
+549,7596,offline,0,,0,male,0,43,,39,173,160,,good,good,,,1,1,divorced,2,bachelors degree,3,,0
+550,0283,offline,0,,0,male,0,44,,39,170,160,,good,,,,1,0,divorced,2,bachelors degree,3,,0
+551,2105,offline,0,,0,male,0,30,28,32,168,155,,good,,,,1,0,divorced,2,,0,,0
+552,7881,offline,0,,0,male,0,34,32,36,172,160,,,good,,,0,1,divorced,2,vocational,2,,0
+554,61892,offline,0,,0,male,0,46,30,,170,160,,good,good,,,1,1,divorced,2,,0,,0
+555,2396,offline,0,,0,male,0,35,,35,170,150,,,,,,0,0,divorced,2,high school,1,,0
+556,2421,offline,0,,0,female,1,33,,33,160,170,,good,,,,1,0,divorced,2,bachelors degree,3,bachelors degree,3
+557,1389,offline,0,,0,male,0,42,,39,170,160,,good,,,,1,0,divorced,2,bachelors degree,3,,0
+558,5551,offline,0,,0,female,1,37,,47,161,170,,good,,,,1,0,divorced,2,masters degree,4,bachelors degree,3
+559,2871,offline,0,,0,female,1,35,,45,163,170,,good,good,,,1,1,divorced,2,bachelors degree,3,bachelors degree,3
+560,4355,offline,0,,0,female,1,41,,49,166,170,,good,good,,,1,1,divorced,2,high school,1,,0
+561,8280,offline,0,,0,male,0,52,,40,175,160,,,good,,,0,1,,,bachelors degree,3,,0
+563,5276,offline,0,yes,1,male,0,40,32,36,172,160,,,,,,0,0,single,1,bachelors degree,3,,0
+564,8269,offline,0,,0,female,1,34,,34,158,170,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+565,6807,offline,0,yes,1,female,1,30,30,34,162,170,,good,,,,1,0,single,1,masters degree,4,masters degree,4
+566,8557,offline,0,,0,male,0,36,30,40,163,,,,,,,0,0,divorced,2,high school,1,,0
+567,7103,offline,0,,0,female,1,35,,35,161,170,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+568,6805,offline,0,yes,1,male,0,33,,30,169,160,,,,,,0,0,single,1,bachelors degree,3,,0
+569,2374,offline,0,,0,female,1,34,,39,163,170,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+570,3502,offline,0,yes,1,male,0,41,,,163,,,,good,,,0,1,divorced,2,bachelors degree,3,,0
+571,2728,offline,0,yes,1,female,1,37,37,44,165,175,,good,,,,1,0,single,1,bachelors degree,3,bachelors degree,3
+572,88422,offline,0,yes,1,female,1,27,27,34,150,170,,good,,,,1,0,single,1,bachelors degree,3,bachelors degree,3
+573,15962,offline,0,,0,male,0,33,,,162,,,,,,,0,0,single,1,,0,,0
+574,1167,offline,0,,0,male,0,28,24,29,170,160,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+575,0954,offline,0,,0,male,0,35,29,33,182,160,,good,good,,,1,1,single,1,bachelors degree,3,,0
+576,8876,offline,0,,0,male,0,41,,,173,,,,,,,0,0,divorced,2,high school,1,,0
+577,3735,offline,0,,0,female,1,28,,,168,172,,good,,,,1,0,single,1,bachelors degree,3,bachelors degree,3
+578,3513,offline,0,yes,1,female,1,33,31,37,173,175,,,,,,0,0,single,1,phd,5,masters degree,4
+580,3823,offline,0,yes,1,female,1,34,,39,163,172,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+581,0143,offline,0,,0,female,1,54,54,63,160,,,good,,,,1,0,widowed,3,,0,,0
+582,8842,offline,0,yes,1,female,1,27,28,35,158,170,,good,,,,1,0,single,1,bachelors degree,3,bachelors degree,3
+583,5077,offline,0,yes,1,male,0,29,24,29,175,,,,,,,0,0,single,1,bachelors degree,3,,0
+584,6377,offline,0,,0,male,0,30,23,31,170,155,,,,,,0,0,single,1,bachelors degree,3,,0
+585,76652,offline,0,,0,female,1,39,39,47,163,170,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+586,3798,offline,0,,0,female,1,27,,,159,,,,,,,0,0,,,phd,5,,0
+587,8815,offline,0,,0,female,1,37,,40,158,,,,,,,0,0,single,1,high school,1,,0
+588,2360,offline,0,yes,1,female,1,36,,36,162,162,,,,,,0,0,divorced,2,masters degree,4,,0
+589,4432,offline,0,yes,1,female,1,36,37,41,163,,,,,,,0,0,single,1,bachelors degree,3,,0
+590,8189,offline,0,,0,female,1,40,39,44,160,,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+591,5868,offline,0,yes,1,male,0,27,24,27,165,150,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+593,9786,offline,0,yes,1,male,0,28,23,29,171,155,,good,,,,1,0,single,1,bachelors degree,3,bachelors degree,3
+594,0690,offline,0,yes,1,female,1,33,,33,163,170,,good,good,,,1,1,single,1,bachelors degree,3,,0
+595,0369,offline,0,,0,female,1,30,,,163,,,,good,,,0,1,single,1,bachelors degree,3,bachelors degree,3
+596,0192,offline,0,yes,1,female,1,37,,44,156,,,,,,,0,0,single,1,bachelors degree,3,,0
+597,79772,offline,0,,0,female,1,38,,43,160,170,,,,,,0,0,divorced,2,,0,bachelors degree,3
+598,4099,offline,0,,0,male,0,46,,39,179,,,good,,,,1,0,single,1,bachelors degree,3,,0
+599,3715,offline,0,yes,1,female,1,29,,33,162,170,,,good,,,0,1,single,1,bachelors degree,3,bachelors degree,3
+600,2708,offline,0,,0,male,0,38,,39,170,158,,good,,,,1,0,single,1,vocational,2,high school,1
+601,3193,offline,0,,0,female,1,31,,39,160,170,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+602,5857,offline,0,,0,female,1,36,37,44,160,170,,good,,,,1,0,single,1,bachelors degree,3,bachelors degree,3
+603,4745,offline,0,,0,female,1,39,,46,160,170,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+604,6848,offline,0,,0,female,1,30,,35,162,172,,,,,,0,0,single,1,phd,5,bachelors degree,3
+605,5303,offline,0,,0,female,1,54,,59,155,168,,good,good,,,1,1,divorced,2,,0,,0
+606,7570,offline,0,yes,1,female,1,33,,33,166,,,good,,,,1,0,single,1,,0,,0
+607,4168,offline,0,yes,1,female,1,30,30,35,160,170,,good,,,,1,0,single,1,bachelors degree,3,,0
+608,7977,offline,0,,0,female,1,25,26,31,160,170,,good,good,,,1,1,single,1,bachelors degree,3,high school,1
+609,56582,offline,0,,0,male,0,39,25,35,175,,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+610,6602,offline,0,,0,female,1,30,,38,163,172,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+611,9135,offline,0,yes,1,female,1,35,36,41,163,170,,,,,,0,0,single,1,masters degree,4,,0
+612,2229,offline,0,,0,female,1,38,39,42,164,175,,good,,,,1,0,single,1,bachelors degree,3,bachelors degree,3
+613,6363,offline,0,,0,male,0,64,40,50,170,,,,,,,0,0,divorced,2,high school,1,,0
+614,47452,offline,0,yes,1,female,1,35,,35,155,170,,,,,,0,0,divorced,2,bachelors degree,3,,0
+615,8461,offline,0,yes,1,female,1,28,,32,160,170,,good,,,,1,0,single,1,bachelors degree,3,bachelors degree,3
+616,0358,offline,0,,0,male,0,33,,29,178,162,,good,,,,1,0,single,1,bachelors degree,3,high school,1
+617,9895,offline,0,,0,female,1,32,,,159,170,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+618,1987,offline,0,yes,1,female,1,27,,32,162,,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+619,4655,offline,0,,0,female,1,29,,33,156,165,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+620,8178,offline,0,,0,male,0,29,,28,173,163,,,,,,0,0,single,1,bachelors degree,3,,0
+621,4290,offline,0,yes,1,female,1,30,,34,158,170,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+622,4675,offline,0,,0,male,0,41,,41,170,150,,good,,,,1,0,divorced,2,,0,,0
+623,7552,offline,0,yes,1,female,1,32,,36,160,168,,,,,,0,0,single,1,masters degree,4,bachelors degree,3
+624,0276,offline,0,yes,1,female,1,29,,33,162,170,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+625,5356,offline,0,,0,female,1,44,,52,158,170,,,,,,0,0,single,1,,0,,0
+626,4868,offline,0,yes,1,female,1,33,,39,158,170,,,,,,0,0,single,1,masters degree,4,masters degree,4
+627,1061,offline,0,,0,male,0,41,,36,174,160,,good,good,,,1,1,single,1,,0,,0
+628,1591,offline,0,,0,female,1,48,50,56,158,170,,good,,,,1,0,single,1,high school,1,,0
+629,9402,offline,0,yes,1,female,1,24,,29,160,170,,good,good,,,1,1,single,1,high school,1,,0
+630,2811,offline,0,,0,female,1,61,,,162,170,,,,,,0,0,widowed,3,,0,,0
+631,8391,offline,0,,0,female,1,64,63,68,160,170,,,,,,0,0,widowed,3,bachelors degree,3,,0
+633,5818,offline,0,,0,male,0,29,,29,181,155,,,,,,0,0,single,1,,0,high school,1
+634,3854,offline,0,,0,male,0,70,,64,165,155,,,,,,0,0,divorced,2,high school,1,,0
+635,1290,offline,0,yes,1,female,1,35,34,43,160,168,,,,,,0,0,single,1,bachelors degree,3,,0
+636,1696,offline,0,,0,female,1,31,,39,165,176,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+638,2832,offline,0,,0,male,0,29,,,170,,,,,,,0,0,single,1,,0,,0
+639,6139,offline,0,yes,1,female,1,31,27,35,155,170,,,,,,0,0,single,1,bachelors degree,3,masters degree,4
+640,2465,offline,0,yes,1,female,1,35,,41,163,172,,,,,,0,0,single,1,,0,,0
+641,9295,offline,0,yes,1,female,1,40,,47,163,170,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+642,6797,offline,0,,0,female,1,66,,70,155,165,,,,,,0,0,widowed,3,,0,,0
+643,0304,offline,0,yes,1,female,1,37,,44,158,170,,good,,,,1,0,divorced,2,bachelors degree,3,bachelors degree,3
+644,2059,offline,0,yes,1,female,1,38,,43,166,170,,good,good,,,1,1,single,1,bachelors degree,3,,0
+645,3023,offline,0,,0,female,1,32,,39,160,168,,good,,,,1,0,single,1,masters degree,4,bachelors degree,3
+646,4451,offline,0,,0,male,0,33,,,174,,,,,,,0,0,single,1,high school,1,,0
+647,0649,offline,0,,0,female,1,30,30,38,161,170,,,,,,0,0,divorced,2,bachelors degree,3,bachelors degree,3
+648,9582,offline,0,,0,female,1,28,29,32,169,173,,good,,,,1,0,single,1,masters degree,4,masters degree,4
+649,5971,offline,0,,0,male,0,31,,27,175,,,,,,,0,0,single,1,,0,high school,1
+650,7337,offline,0,yes,1,male,0,46,,40,178,160,,,,,,0,0,single,1,masters degree,4,,0
+651,7877,offline,0,,0,female,1,30,,30,176,180,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+652,2963,offline,0,,0,male,0,59,,60,168,,,,,,,0,0,,,,0,,0
+653,4581,offline,0,yes,1,female,1,23,,29,160,170,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+654,4804,offline,0,yes,1,male,0,29,,28,180,165,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+655,0490,offline,0,yes,1,male,0,36,,34,168,,,,,,,0,0,single,1,masters degree,4,bachelors degree,3
+656,6698,offline,0,yes,1,male,0,37,,36,165,,,,,,,0,0,divorced,2,,0,,0
+657,1135,offline,0,,0,male,0,40,,39,,,,,,,,0,0,divorced,2,bachelors degree,3,,0
+658,2626,offline,0,yes,1,male,0,33,,33,170,160,,,good,,,0,1,single,1,bachelors degree,3,bachelors degree,3
+659,9270,offline,0,yes,1,female,1,32,32,37,160,170,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+661,1695,offline,0,,0,female,1,34,,39,168,,,,,,,0,0,single,1,masters degree,4,,0
+662,5464,offline,0,yes,1,female,1,41,,41,160,170,,,,,,0,0,single,1,masters degree,4,bachelors degree,3
+663,7095,offline,0,yes,1,female,1,35,35,43,165,175,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+664,8382,offline,0,yes,1,female,1,35,35,43,165,173,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+665,3958,offline,0,yes,1,female,1,37,37,42,163,170,,good,,,,1,0,single,1,bachelors degree,3,bachelors degree,3
+667,4576,offline,0,yes,1,male,0,37,,35,177,160,,good,good,,,1,1,single,1,bachelors degree,3,,0
+668,2767,offline,0,,0,female,1,39,39,46,165,170,,good,,,,1,0,single,1,,0,,0
+669,2697,offline,0,yes,1,male,0,37,29,32,170,158,,good,,,,1,0,single,1,bachelors degree,3,bachelors degree,3
+670,5507,offline,0,yes,1,female,1,37,37,45,165,173,,good,,,,1,0,single,1,bachelors degree,3,,0
+671,3331,offline,0,yes,1,female,1,27,,35,165,172,,good,,,,1,0,single,1,bachelors degree,3,bachelors degree,3
+672,8185,offline,0,yes,1,female,1,34,34,40,157,,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+673,9271,offline,0,yes,1,female,1,37,37,42,163,172,,,,,,0,0,single,1,phd,5,masters degree,4
+674,0328,offline,0,yes,1,female,1,34,,34,160,,,good,good,,,1,1,single,1,masters degree,4,bachelors degree,3
+675,5729,offline,0,yes,1,female,1,43,43,51,170,175,,,,,,0,0,single,1,bachelors degree,3,,0
+676,3526,offline,0,,0,female,1,41,41,49,160,,,,,,,0,0,single,1,bachelors degree,3,high school,1
+677,8884,offline,0,yes,1,female,1,28,29,32,165,175,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+678,3196,offline,0,yes,1,female,1,30,29,35,163,170,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+679,38232,offline,0,yes,1,female,1,34,,34,163,172,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+680,3698,offline,0,,0,male,0,54,49,51,170,155,,,,,,0,0,divorced,2,bachelors degree,3,,0
+681,3769,offline,0,,0,female,1,28,,33,158,,,good,,,,1,0,single,1,bachelors degree,3,bachelors degree,3
+682,0932,offline,0,yes,1,male,0,34,,35,167,154,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+683,7898,offline,0,yes,1,male,0,45,,,173,155,,,,,,0,0,divorced,2,high school,1,,0
+684,8368,offline,0,,0,male,0,36,,39,172,,,,,,,0,0,divorced,2,high school,1,,0
+685,1979,offline,0,yes,1,male,0,36,,32,180,165,170,,,,,0,0,single,1,bachelors degree,3,high school,1
+686,0671,offline,0,,0,female,1,35,,45,158,170,,,,,,0,0,single,1,bachelors degree,3,,0
+687,9844,offline,0,,0,female,1,31,33,36,164,174,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+688,2375,offline,0,yes,1,male,0,27,24,28,178,,,,,,,0,0,single,1,high school,1,,0
+689,3807,offline,0,yes,1,male,0,30,,30,165,,,,,,,0,0,single,1,high school,1,,0
+690,4528,offline,0,yes,1,female,1,27,,31,165,170,,,,,,0,0,divorced,2,,0,,0
+691,9061,offline,0,,0,female,1,30,,38,168,175,,good,good,,,1,1,single,1,,0,,0
+692,7063,offline,0,,0,female,1,33,,,160,#VALUE!,,good,,,,1,0,single,1,,0,,0
+693,6908,offline,0,yes,1,female,1,26,,31,155,165,,good,,,,1,0,single,1,bachelors degree,3,bachelors degree,3
+694,8991,offline,0,yes,1,female,1,33,31,38,159,,,,,,,0,0,single,1,masters degree,4,masters degree,4
+695,6257,offline,0,,0,female,1,35,,,160,,,good,,,,1,0,single,1,bachelors degree,3,,0
+696,6828,offline,0,yes,1,female,1,26,26,31,162,175,,good,,,,1,0,single,1,bachelors degree,3,bachelors degree,3
+697,9446,offline,0,,0,male,0,34,,,172,,,,,,,0,0,single,1,high school,1,,0
+698,2471,offline,0,yes,1,female,1,30,,39,160,172,,good,,,,1,0,divorced,2,bachelors degree,3,bachelors degree,3
+699,3717,offline,0,,0,male,0,48,,40,170,155,,,,,,0,0,,,bachelors degree,3,,0
+700,2576,offline,0,yes,1,female,1,28,,35,160,170,,,,,,0,0,,,bachelors degree,3,bachelors degree,3
+701,1470,offline,0,,0,female,1,32,,39,162,170,,good,,,,1,0,divorced,2,bachelors degree,3,,0
+702,1480,offline,0,,0,male,0,33,,36,170,155,,,,,,0,0,single,1,bachelors degree,3,,0
+703,8915,offline,0,yes,1,female,1,24,,,165,175,,,,,,0,0,single,1,bachelors degree,3,,0
+704,0223,offline,0,yes,1,male,0,45,,37,170,160,,good,,,,1,0,single,1,phd,5,bachelors degree,3
+705,6725,offline,0,yes,1,male,0,48,,41,176,160,,,,,,0,0,divorced,2,,0,bachelors degree,3
+706,7876,offline,0,yes,1,female,1,26,,31,163,175,,good,,,,1,0,single,1,bachelors degree,3,bachelors degree,3
+707,3432,offline,0,yes,1,female,1,31,,36,156,165,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+708,2563,offline,0,,0,male,0,30,,,162,,,,,,,0,0,single,1,bachelors degree,3,,0
+709,9610,offline,0,,0,female,1,35,,43,160,168,,,,,,0,0,divorced,2,masters degree,4,bachelors degree,3
+801,5866,offline,0,yes,1,female,1,33,,39,163,175,,good,good,,,1,1,,,bachelors degree,3,,0
+802,2161,offline,0,yes,1,female,1,33,,38,167,175,,good,good,,,1,1,divorced,2,bachelors degree,3,bachelors degree,3
+803,9816,offline,0,yes,1,female,1,38,43,46,168,175,,good,good,,,1,1,,,bachelors degree,3,bachelors degree,3
+804,6910,offline,0,yes,1,male,0,29,,28,163,155,,,,,,0,0,,,,0,bachelors degree,3
+805,4298,offline,0,yes,1,female,1,28,,32,158,170,,good,,,,1,0,single,1,bachelors degree,3,bachelors degree,3
+806,8729,offline,0,yes,1,female,1,27,32,35,155,164,,good,,,,1,0,,,bachelors degree,3,bachelors degree,3
+807,3797,offline,0,yes,1,female,1,49,47,54,165,170,,good,,,,1,0,widowed,3,,0,,0
+808,4970,offline,0,yes,1,female,1,31,,36,156,165,,good,,,,1,0,single,1,,0,,0
+809,3873,offline,0,yes,1,female,1,29,33,37,160,175,,good,good,,,1,1,,,bachelors degree,3,,0
+810,8278,offline,0,Yes,1,female,1,27,,33,160,170,,good,,,,1,0,single,1,bachelors degree,3,,0
+811,1957,offline,0,yes,1,female,1,31,,36,168,175,,good,good,,,1,1,,,masters degree,4,bachelors degree,3
+812,0191,offline,0,yes,1,female,1,31,36,38,165,173,,,,,,0,0,,,bachelors degree,3,,0
+813,6942,offline,0,,0,female,1,34,,42,161,170,,good,,,,1,0,,,phd,5,masters degree,4
+814,2498,offline,0,yes,1,female,1,30,31,34,158,170,,good,good,,,1,1,,,bachelors degree,3,bachelors degree,3
+815,1077,offline,0,yes,1,female,1,29,,33,164,172,,good,good,,,1,1,single,1,bachelors degree,3,high school,1
+816,0662,offline,0,yes,1,female,1,30,,36,169,175,,good,good,,,1,1,,,masters degree,4,bachelors degree,3
+817,7194,offline,0,yes,1,female,1,29,,37,160,170,,,,,,0,0,,,bachelors degree,3,bachelors degree,3
+818,8119,offline,0,yes,1,female,1,22,29,33,160,170,,good,good,,,1,1,,,,0,masters degree,4
+819,7161,offline,0,yes,1,female,1,34,,39,160,170,,good,,,,1,0,single,1,bachelors degree,3,bachelors degree,3
+820,7186,offline,0,yes,1,female,1,31,31,35,165,175,,good,,,,1,0,,,bachelors degree,3,bachelors degree,3
+821,8428,offline,0,,0,female,1,36,42,33,158,,,good,,,,1,0,single,1,bachelors degree,3,bachelors degree,3
+822,0920,offline,0,,0,female,1,36,,44,160,170,,good,,,,1,0,,,,0,,0
+823,5747,offline,0,,0,female,1,33,,39,170,175,,,good,,,0,1,,,,0,,0
+824,0515,offline,0,yes,1,female,1,44,,49,164,170,,,good,,,0,1,single,1,high school,1,,0
+825,2976,offline,0,,0,female,1,38,,42,161,170,,,,,,0,0,,,,0,,0
+826,7579,offline,0,yes,1,female,1,34,,,160,170,,good,good,,,1,1,single,1,masters degree,4,bachelors degree,3
+827,9769,offline,0,yes,1,female,1,28,,28,160,170,,,,,,0,0,,,bachelors degree,3,bachelors degree,3
+828,8298,offline,0,,0,female,1,27,,33,159,170,,,,,,0,0,single,1,bachelors degree,3,bachelors degree,3
+829,3049,offline,0,,0,male,0,45,41,37,165,,,,good,,,0,1,single,1,bachelors degree,3,,0
+830,9462,offline,0,,0,male,0,36,,33,170,160,,good,good,,,1,1,single,1,bachelors degree,3,,0
+831,0507,offline,0,,0,female,1,25,,29,168,176,,good,good,,,1,1,,,masters degree,4,masters degree,4
+833,1893,offline,0,,0,female,1,26,,31,163,172,,,,,,0,0,,,bachelors degree,3,bachelors degree,3
+902,1638,offline,0,yes,1,female,1,29,,34,167,175,,good,good,,,1,1,single,1,masters degree,4,bachelors degree,3
+904,9286,offline,0,yes,1,female,1,30,,30,167,167,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+905,0721,offline,0,Yes,1,male,0,49,,40,175,160,,good,good,,,1,1,divorced,2,high school ,1,high school,1
+908,7005,offline,0,yes,1,female,1,34,,39,160,170,,,,,,0,0,single,1,,0,bachelors degree,3
+911,6385,offline,0,,0,female,1,27,27,33,158,170,,good,good,,,1,1,,,masters degree,4,bachelors degree,3
+912,4562,offline,0,yes,1,female,1,31,,39,162,172,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+913,2032,offline,0,yes,1,male,0,43,,36,172,160,,,,,,0,0,,,bachelors degree,3,bachelors degree,3
+914,2333,offline,0,,0,male,0,39,,31,170,160,,,,,,0,0,,,masters degree,4,bachelors degree,3
+915,2941,offline,0,yes,1,male,0,31,,,171,156,,good,god,,,1,1,single,1,vocational,2,,0
+916,6119,offline,0,yes,1,male,0,33,25,29,169,160,,good,good,,,1,1,,,,0,bachelors degree,3
+917,6538,offline,0,yes,1,female,1,25,26,29,160,,,,,,,0,0,,,bachelors degree,3,,0
+918,9899,offline,0,yes,1,female,1,27,27,31,163,175,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+919,0717,offline,0,yes,1,female,1,27,,31,155,170,,,good,,,0,1,single,1,,0,bachelors degree,3
+920,4775,offline,0,yes,1,female,1,29,,33,158,170,,good,good,,,1,1,,,masters degree,4,,0
+921,3471,offline,0,yes,1,female,1,29,,33,158,170,,good,,,,1,0,,,,0,bachelors degree,3
+922,2347,offline,0,yes,1,female,1,23,25,27,158,170,,,,,,0,0,,,phd,5,bachelors degree,3
+923,9603,offline,0,yes,1,female,1,26,,31,165,175,,good,good,,,1,1,single,1,,0,high school,1
+924,8506,offline,0,yes,1,female,1,37,,40,155,170,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+925,2382,offline,0,yes,1,male,0,,38,28,176,,,good,,,,1,0,single,1,bachelors degree,3,bachelors degree,3
+926,4163,offline,0,yes,1,female,1,33,,35,165,175,,,good,,,0,1,,,bachelors degree,3,bachelors degree,3
+1001,8828,offline,0,yes,1,female,1,32,,32,160,160,,good,,,,1,0,single,1,masters degree,4,,0
+1002,5727,offline,0,yes,1,female,1,33,,37,167,175,,good,,,,1,0,single,1,,0,vocational ,2
+1003,9787,offline,0,yes,1,female,1,33,,39,,170,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+1004,2051,offline,0,yes,1,female,1,32,,39,173,176,,good,good,,,1,1,single,1,masters degree,4,,0
+1005,0861,offline,0,yes,1,female,1,29,29,36,160,165,,,good,,,0,1,single,1,bachelors degree,3,high school,1
+1006,1719,offline,0,yes,1,female,1,25,,29,162,170,,good,good,,,1,1,single,1,bachelors degree,3,,0
+1007,0255,offline,0,yes,1,female,1,32,32,39,160,170,,good,good,,,1,1,single,1,masters degree,4,bachelors degree,3
+1008,2025,offline,0,yes,1,female,1,32,,37,161,170,,,,,,0,0,single,1,masters degree,4,bachelors degree,3
+1009,2826,offline,0,yes,1,female,1,30,32,35,160,170,,,good,,,0,1,single,1,bachelors degree,3,bachelors degree,3
+1010,3155,offline,0,yes,1,female,1,32,,37,157,170,,good,good,,,1,1,single,1,masters degree,4,bachelors degree,3
+1011,5122,offline,0,yes,1,male,0,46,,40,170,154,,good,good,,,1,1,single,1,bachelors degree,3,,0
+1012,9389,offline,0,yes,1,female,1,33,38,,,166,,,good,,,0,1,single,1,masters degree,4,,0
+1013,9387,offline,0,yes,1,female,1,33,34,37,155,165,,,,,,0,0,single,1,masters degree,4,bachelors degree,3
+1014,7200,offline,0,yes,1,female,1,34,,39,158,170,,,good,,,0,1,single,1,bachelors degree,3,bachelors degree,3
+1015,82692,offline,0,yes,1,female,1,34,,39,158,170,,good,good,,,1,1,single,1,,0,bachelors degree,3
+1016,8722,offline,0,yes,1,female,1,36,36,36,162,170,,,,,,0,0,single,1,masters degree,4,bachelors degree,3
+1018,5779,offline,0,,0,male,0,41,49,,165,150,,good,good,,,1,1,divorced,2,high school,1,,0
+1019,2052,offline,0,,0,female,1,36,,41,158,165,,good,good,,,1,1,single,1,masters degree,4,,0
+1020,8783,offline,0,yes,1,female,1,31,,43,168,170,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
+1021,7804,offline,0,,0,male,0,30,,30,170,,,good,,,,1,0,single,1,high school,1,,0
+1022,4798,offline,0,,0,male,0,50,,40,168,160,,good,good,,,1,1,single,1,high school,1,bachelors degree,3
+1023,8058,offline,0,,0,male,0,46,56,46,168,,,good,good,,,1,1,,,phd,5,bachelors degree,3
+1024,2818,offline,0,,0,female,1,35,40,30,160,168,,good,,,,1,0,single,1,bachelors degree,3,bachelors degree,3
+1025,0862,offline,0,,0,female,1,50,,62,157,170,,good,,,,1,0,divorced,2,high school,1,,0
+1026,2554,offline,0,yes,1,female,1,48,,,158,,,,,,,0,0,divorced,2,bachelors degree,3,,0
+1027,76653,offline,0,,0,female,1,39,,39,163,170,,good,good,,,1,1,single,1,bachelors degree,3,bachelors degree,3
