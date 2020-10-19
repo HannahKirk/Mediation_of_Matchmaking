@@ -3,3 +3,4 @@ Dataset and code repository for the article: "The Mediation of Match-Making: A C
 
 Please contact the corresponding author Hannah Kirk (hannah@thekirks.co.uk) for inquires, or for permission to use the data in further study. 
 
+Please cite "Kirk, H.R. Gupta, S (2020),"The Mediation of Match-Making: A Comparative Study of Gender and Generational Preference in Online Dating Websites and Offline Marriage Markets in Chengdu" GitHub repository, https://github.com/HannahKirk/Mediation_of_Matchmaking"
